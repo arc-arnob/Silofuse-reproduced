@@ -1,0 +1,1 @@
+{"task_type": "binclass", "name": "bank_latent", "id": "bank_latent--id", "train_size": 3500, "val_size": 750, "test_size": 750, "n_num_features": 9, "n_cat_features": 0}

@@ -1,0 +1,10 @@
+{
+    "task_type": "binclass",
+    "name": "bank",
+    "id": "bank--id",
+    "train_size": 3400,
+    "val_size": 600,
+    "test_size": 1000,
+    "n_num_features": 5,
+    "n_cat_features": 7
+}

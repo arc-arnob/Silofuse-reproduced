@@ -1,0 +1,10 @@
+{
+    "name": "Cardio",
+    "id": "cardio--default",
+    "task_type": "binclass",
+    "n_num_features": 5,
+    "n_cat_features": 5,
+    "test_size": 14000,
+    "train_size": 47600,
+    "val_size": 8400
+}

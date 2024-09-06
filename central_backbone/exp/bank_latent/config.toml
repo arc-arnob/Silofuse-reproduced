@@ -2,11 +2,11 @@ seed = 0
 parent_dir = "../exp/bank_latent/"
 real_data_path = "../data/bank_latent/"
 model_type = "mlp"
-num_numerical_features = 9
-device = "cuda:0"
+num_numerical_features = 14
+device = "cpu"
 
 [model_params]
-d_in = 8
+d_in = 15
 num_classes = 2
 is_y_cond = true
 
@@ -15,7 +15,7 @@ num_timesteps = 1000
 gaussian_loss_type = "mse"
 
 [sample]
-num_samples = 768
+num_samples = 5000
 batch_size = 500
 seed = 0
 

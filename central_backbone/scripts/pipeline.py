@@ -9,7 +9,7 @@ from eval_mlp import train_mlp
 from eval_simple import train_simple
 import pandas as pd
 import matplotlib.pyplot as plt
-import zero
+# import zero
 import lib
 import torch
 
@@ -40,8 +40,8 @@ def main():
     else:
         device = torch.device('cuda:0')
     
-    timer = zero.Timer()
-    timer.run()
+    # timer = zero.Timer()
+    # timer.run()
     save_file(os.path.join(raw_config['parent_dir'], 'config.toml'), args.config)
 
     if args.train:
@@ -106,7 +106,7 @@ def main():
                 change_val=args.change_val
             )
 
-    print(f'Elapsed time: {str(timer)}')
+    # print(f'Elapsed time: {str(timer)}')
 
 if __name__ == '__main__':
     main()

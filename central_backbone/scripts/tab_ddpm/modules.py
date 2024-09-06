@@ -437,6 +437,7 @@ class MLPDiffusion(nn.Module):
         self.mlp = MLP.make_baseline(**rtdl_params)
 
         if self.num_classes > 0 and is_y_cond:
+            print("******* Number of class: *********", self.num_classes, dim_t)
             self.label_emb = nn.Embedding(self.num_classes, dim_t)
         elif self.num_classes == 0 and is_y_cond:
             self.label_emb = nn.Linear(1, dim_t)

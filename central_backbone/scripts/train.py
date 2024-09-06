@@ -98,7 +98,6 @@ def train(
     zero.improve_reproducibility(seed)
 
     T = lib.Transformations(**T_dict)
-
     dataset = make_dataset(
         real_data_path,
         T,

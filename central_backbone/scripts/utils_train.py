@@ -73,7 +73,6 @@ def make_dataset(
             y[split] = y_t
 
     info = lib.load_json(os.path.join(data_path, 'info.json'))
-
     D = lib.Dataset(
         X_num,
         X_cat,

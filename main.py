@@ -29,7 +29,7 @@ def main(dataset=None, trained_model=None):
         latent_check = pd.read_csv("data/processed/bank_latent.csv")
         print("CSV Read...")
         combined_df = pd.concat([latent_check, label], axis=1)
-        combined_df.to_csv("data/processed/bank_latent_w_label.csv")
+        combined_df.to_csv("data/processed/bank_latent_w_label.csv", index=False)
 
         return model
 
@@ -37,7 +37,9 @@ def main(dataset=None, trained_model=None):
         # This block will run only if the dataset argument is provided
         data = pd.read_csv("data/processed/bank_latent_w_label.csv")
         X = data.iloc[:, :-1].values
+        print("Debug1: Tabddpm latent feature", X.shape)
         y = data.iloc[:, -1].values
+        print("Debug1: Tabddpm label latent feature", y.shape)
         # Perform further processing on X and y as needed
         print("Dataset processing completed.")
 
@@ -70,7 +72,7 @@ def main(dataset=None, trained_model=None):
         
         print("Interim Data Y Saved in .npy format for Tabddpm")
 
-        num_feature_size, cat_features_size = 14, 0 # These are default considering latent size of each client is 3 in VAE
+        num_feature_size, cat_features_size = 13, 0 # These are default considering latent size of each client is 3 in VAE
         
         info_file = {
         "task_type": "binclass",
@@ -170,9 +172,9 @@ def main(dataset=None, trained_model=None):
             raise ValueError("Model is not available. Ensure you have trained the model before generating data.")
         generated_latent = np.load("data/external/bank_latent/X_num_unnorm.npy")
         df = pd.DataFrame(generated_latent)
-        df.to_csv("data/external/bank_synth_latent.csv")
+        df.to_csv("data/external/bank_synth_latent.csv", index=False)
         generated_data = trained_model.sample(5000, path="data/external/bank_synth_latent.csv")
-        generated_data.to_csv("data/external/bank_synth_data.csv")
+        generated_data.to_csv("data/external/bank_synth_data.csv", index=False)
 
         
 if __name__ == "__main__":

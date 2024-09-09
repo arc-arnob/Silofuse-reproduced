@@ -38,8 +38,8 @@ Silofuse Reproduction
 │                         generated with `pip freeze > requirements.txt`
 │
 ├── setup.cfg          <- Configuration file for flake8
-│
-└── Silofuse   <- Source code for use in this project.
+├── tabddpm <- Tabddpm code for tabular diffusion
+└── VAE   <- Source code of Variational Autoencoder for use in this project.
     │
     ├── __init__.py             <- Makes Silofuse a Python module
     │

@@ -1,0 +1,41 @@
+{
+    "name": "cardio",
+    "task_type": "binclass",
+    "header": "infer",
+    "column_names": [
+        "id",
+        "age",
+        "gender",
+        "height",
+        "weight",
+        "ap_hi",
+        "ap_lo",
+        "cholesterol",
+        "gluc",
+        "smoke",
+        "alco",
+        "active",
+        "cardio"
+    ],
+    "num_col_idx": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+    ],
+    "cat_col_idx": [],
+    "target_col_idx": [
+        12
+    ],
+    "file_type": "csv",
+    "data_path": "data/cardio/cardio.csv",
+    "test_path": null
+}

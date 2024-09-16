@@ -22,7 +22,7 @@ def split_columns(df: pd.DataFrame, save_path=None, diabetes_data=False, adult=F
     elif adult:
         last_column = df.iloc[:, -1].map({"<=50K": 0, ">50K": 1})
     elif heloc:
-        last_column = df.iloc[:, -1].map({"bad": 0, "good": 1})
+        last_column = df.iloc[:, -1].map({"Bad": 0, "Good": 1})
     elif intrusion:
         last_column = df.iloc[:, -1].map({"anomaly": 0, "normal": 1})
     else:    

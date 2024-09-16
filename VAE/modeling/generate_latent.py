@@ -4,8 +4,10 @@ import pandas as pd
 def categorical_column_indices(metadata_dict):
     categorical_indices = []
     columns = metadata_dict.get('columns', {})
-    column_names = list(columns.keys())[:-1]  # Exclude the last key
+    print("Columns" ,columns)
+    column_names = list(columns.keys()) # Exclude the last key
     for index, column_name in enumerate(column_names):
+        print("Column name:::" ,column_name)
         column_data = columns[column_name]
         if column_data.get('sdtype') == 'categorical' or column_data.get('sdtype') == 'unknown':
             categorical_indices.append(index)
@@ -32,7 +34,6 @@ def generate_and_save_latent(model, source="../data/interim/bank_no_label.csv", 
             discrete_columns = categorical_column_indices(metadata.to_dict())
             discrete_columns = df.columns[discrete_columns].tolist()
             print("##### Discrete Columns:", discrete_columns)
-            discrete_columns.append('native-country') #TODO: FIX
         except Exception as e:
             print(f"Error identifying discrete columns: {e}")
             return

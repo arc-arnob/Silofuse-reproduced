@@ -86,7 +86,7 @@ if __name__ == '__main__':
 
     real_data.columns = range(len(real_data.columns))
     syn_data.columns = range(len(syn_data.columns))
-
+    print("Opening Line 90 file eval_density.py", f'{data_dir}/info.json')
     metadata = info['metadata']
     metadata['columns'] = {int(key): value for key, value in metadata['columns'].items()}
 

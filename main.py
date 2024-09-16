@@ -89,7 +89,7 @@ def main(dataset=None, trained_model=None):
         }
         
         os.makedirs(f"data/interim/{dataset}_latent", exist_ok=True)
-        with open(f"data/interim//{dataset}_latent/info.json", "w") as info_writer:
+        with open(f"data/interim/{dataset}_latent/info.json", "w") as info_writer:
             json.dump(info_file, info_writer)
 
         os.makedirs(f"data/external/{dataset}_latent", exist_ok=True)
@@ -250,7 +250,7 @@ def main(dataset=None, trained_model=None):
         }
         
         os.makedirs(f"data/interim/{dataset}", exist_ok=True)
-        with open(f"data/interim//{dataset}/info.json", "w") as info_writer:
+        with open(f"data/interim/{dataset}/info.json", "w") as info_writer:
             json.dump(info_file, info_writer)
 
         os.makedirs(f"data/external/{dataset}", exist_ok=True)
@@ -348,14 +348,15 @@ def main(dataset=None, trained_model=None):
         # The default block of code to run if no dataset is specified
         data = pd.read_csv("data/raw/abalone.csv", sep=",")  # Raw Data
         _, label = split_columns(data, save_path="data/interim/abalone_no_label.csv")
-        no_label_data = pd.read_csv("data/interim/abalone_no_label.csv", sep=",")
-        model = TVAE(embedding_dim=no_label_data.shape[1], compress_dims=(32, 1024), decompress_dims=(1024, 32))
-        generate_and_save_latent(model, source="data/interim/abalone_no_label.csv", path="data/processed/abalone_latent.csv")
+        no_label_data = pd.read_csv("data/raw/abalone.csv", sep=",")
+        model = TVAE(embedding_dim=data.shape[1], compress_dims=(32, 1024), decompress_dims=(1024, 32))
+        generate_and_save_latent(model, source="data/raw/abalone.csv", path="data/processed/abalone_latent.csv")
         
         latent_check = pd.read_csv("data/processed/abalone_latent.csv")
-        print("CSV Read...")
-        combined_df = pd.concat([latent_check, label], axis=1)
-        combined_df.to_csv("data/processed/abalone_latent_w_label.csv", index=False)
+        latent_check.to_csv("data/processed/abalone_latent_w_label.csv", index=False)
+        # print("CSV Read...")
+        # combined_df = pd.concat([latent_check, label], axis=1)
+        # combined_df.to_csv("data/processed/abalone_latent_w_label.csv", index=False)
 
         return model
 
@@ -402,7 +403,7 @@ def main(dataset=None, trained_model=None):
         num_feature_size, cat_features_size = 8, 0 # These are default considering latent size of each client is 3 in VAE
         
         info_file = {
-        "task_type": "binclass",
+        "task_type": "regression",
         "name": f"{dataset}",
         "id": f"{dataset}--id",
         "train_size": train_size,
@@ -413,7 +414,7 @@ def main(dataset=None, trained_model=None):
         }
         
         os.makedirs(f"data/interim/{dataset}", exist_ok=True)
-        with open(f"data/interim//{dataset}/info.json", "w") as info_writer:
+        with open(f"data/interim/{dataset}/info.json", "w") as info_writer:
             json.dump(info_file, info_writer)
 
         os.makedirs(f"data/external/{dataset}", exist_ok=True)
@@ -427,12 +428,12 @@ def main(dataset=None, trained_model=None):
             'device': 'cpu',  
             'model_params': {       # Change the denoising architecture here as per your liking
                 'd_in': 8, # Make this Input parameter
-                'num_classes': 28,
-                'is_y_cond': True,
+                'num_classes': 0,
+                'is_y_cond': False,
                 'rtdl_params': {
                     'd_layers': [
-                        128,
-                        512
+                        256,
+                        128
                     ],
                     'dropout': 0.0
                 }
@@ -444,7 +445,7 @@ def main(dataset=None, trained_model=None):
             'train': {
                 'main': {
                     'steps': 30000,
-                    'lr': 1.1510940031144828e-05,
+                    'lr': 0.00027761965839603165,
                     'weight_decay': 0.0,
                     'batch_size': 4096
                 },
@@ -460,12 +461,12 @@ def main(dataset=None, trained_model=None):
             },
             'sample': {
                 'num_samples': 5000,
-                'batch_size': 500,
+                'batch_size': 10000,
                 'seed': 0
             },
             'eval': {
                 'type': {
-                    'eval_model': 'catboost',
+                    'eval_model': 'mlp',
                     'eval_type': 'synthetic'
                 },
                 'T': {
@@ -575,7 +576,7 @@ def main(dataset=None, trained_model=None):
         }
         
         os.makedirs(f"data/interim/{dataset}", exist_ok=True)
-        with open(f"data/interim//{dataset}/info.json", "w") as info_writer:
+        with open(f"data/interim/{dataset}/info.json", "w") as info_writer:
             json.dump(info_file, info_writer)
 
         os.makedirs(f"data/external/{dataset}", exist_ok=True)
@@ -737,7 +738,7 @@ def main(dataset=None, trained_model=None):
         }
         
         os.makedirs(f"data/interim/{dataset}", exist_ok=True)
-        with open(f"data/interim//{dataset}/info.json", "w") as info_writer:
+        with open(f"data/interim/{dataset}/info.json", "w") as info_writer:
             json.dump(info_file, info_writer)
 
         os.makedirs(f"data/external/{dataset}", exist_ok=True)
@@ -899,7 +900,7 @@ def main(dataset=None, trained_model=None):
         }
         
         os.makedirs(f"data/interim/{dataset}", exist_ok=True)
-        with open(f"data/interim//{dataset}/info.json", "w") as info_writer:
+        with open(f"data/interim/{dataset}/info.json", "w") as info_writer:
             json.dump(info_file, info_writer)
 
         os.makedirs(f"data/external/{dataset}", exist_ok=True)
@@ -1050,7 +1051,7 @@ def main(dataset=None, trained_model=None):
         num_feature_size, cat_features_size = 54, 0 # These are default considering latent size of each client is 3 in VAE
         
         info_file = {
-        "task_type": "binclass",
+        "task_type": "multiclass",
         "name": f"{dataset}",
         "id": f"{dataset}--id",
         "train_size": train_size,
@@ -1061,7 +1062,7 @@ def main(dataset=None, trained_model=None):
         }
         
         os.makedirs(f"data/interim/{dataset}", exist_ok=True)
-        with open(f"data/interim//{dataset}/info.json", "w") as info_writer:
+        with open(f"data/interim/{dataset}/info.json", "w") as info_writer:
             json.dump(info_file, info_writer)
 
         os.makedirs(f"data/external/{dataset}", exist_ok=True)
@@ -1209,7 +1210,7 @@ def main(dataset=None, trained_model=None):
         print("Interim Data Y Saved in .npy format for Tabddpm")
 
         # Make num_feature_size a input parameter
-        num_feature_size, cat_features_size = 54, 0 # These are default considering latent size of each client is 3 in VAE
+        num_feature_size, cat_features_size = 23, 0 # These are default considering latent size of each client is 3 in VAE
         
         info_file = {
         "task_type": "binclass",
@@ -1223,7 +1224,7 @@ def main(dataset=None, trained_model=None):
         }
         
         os.makedirs(f"data/interim/{dataset}", exist_ok=True)
-        with open(f"data/interim//{dataset}/info.json", "w") as info_writer:
+        with open(f"data/interim/{dataset}/info.json", "w") as info_writer:
             json.dump(info_file, info_writer)
 
         os.makedirs(f"data/external/{dataset}", exist_ok=True)
@@ -1236,8 +1237,8 @@ def main(dataset=None, trained_model=None):
             'num_numerical_features': num_feature_size,   # Set the number of numerical features here
             'device': 'cpu',  
             'model_params': {       # Change the denoising architecture here as per your liking
-                'd_in': 54, # Make this Input parameter
-                'num_classes': 7,
+                'd_in': 23, # Make this Input parameter
+                'num_classes': 2,
                 'is_y_cond': True,
                 'rtdl_params': {
                     'd_layers': [
@@ -1385,7 +1386,7 @@ def main(dataset=None, trained_model=None):
         }
         
         os.makedirs(f"data/interim/{dataset}", exist_ok=True)
-        with open(f"data/interim//{dataset}/info.json", "w") as info_writer:
+        with open(f"data/interim/{dataset}/info.json", "w") as info_writer:
             json.dump(info_file, info_writer)
 
         os.makedirs(f"data/external/{dataset}", exist_ok=True)
@@ -1482,52 +1483,72 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Script to process data or run the dataset code.")
     parser.add_argument("--dataset", type=str, help="Specify the dataset to run, e.g., 'bank_latent'")
     args = parser.parse_args()
+
+    # Run: Done
+    # Resemblance: Matched
     if args.dataset == 'bank':
-        # Matched
         trained_model = main(args.dataset)
         main("bank_latent")
         main("bank_generate", trained_model=trained_model)
+    
+    # Run: Done
+    # Resemblance: Matched
+    # tabsyn: 91
     elif args.dataset == 'diabetes':
-        # Matched
         trained_model = main(args.dataset)
         main("diabetes_latent")
         main("diabetes_generate", trained_model=trained_model)
+    
+    # Run: Done
+    # Resemblance: 90% Matched
+    # Tabsyn: TBD
     elif args.dataset == 'abalone':
         trained_model = main(args.dataset)
         main("abalone_latent")
         main("abalone_generate", trained_model=trained_model)
 
+    # Run: Done
+    # Resemblance: Matched
     elif args.dataset == 'cardio':
-        # Matched
         trained_model = main(args.dataset)
         main("cardio_latent")
         main("cardio_generate", trained_model=trained_model)
     
+    # Run: Running...
+    # Resemblance: TBD
+    # AttributeError: 'NoneType' object has no attribute 'inverse_transform'
+    # Tabsyn: 98%
     elif args.dataset == 'adult':
         trained_model = main(args.dataset)
         main("adult_latent")
         main("adult_generate", trained_model=trained_model)
     
+    # Run: Done
+    # Resemblance: Matched
+    # Tabsyn..
     elif args.dataset == 'churn':
-        # Matched
         trained_model = main(args.dataset)
         main("churn_latent")
         main("churn_generate", trained_model=trained_model)
 
+    # Run: Running... 4-6hrs Issue with multiclass...
+    # Resemblance: TBD 
+    # Tabsyn:  Multiclass not Supported
     elif args.dataset == 'covtype':
         trained_model = main(args.dataset)
         main("covtype_latent")
         main("covtype_generate", trained_model=trained_model)
 
+    # Run: Done... but column similarity doesnt work...
+    # Resemblance: 83
     elif args.dataset == 'heloc':
-        '''
-         y = torch.multinomial(
-        RuntimeError: invalid multinomial distribution (sum of probabilities <= 0)
-        '''
         trained_model = main(args.dataset)
         main("heloc_latent")
         main("heloc_generate", trained_model=trained_model)
 
+    # Run: Done
+    # Resemblance: 
+    # Tabsyn: 97
     elif args.dataset == 'intrusion':
         trained_model = main(args.dataset)
         main("intrusion_latent")

@@ -112,7 +112,7 @@ class TVAE(BaseSynthesizer):
         batch_size=500,
         epochs=300,
         loss_factor=2,
-        cuda=False,
+        cuda=True,
         verbose=True,
     ):
         self.embedding_dim = embedding_dim
@@ -126,10 +126,8 @@ class TVAE(BaseSynthesizer):
         self.loss_values = pd.DataFrame(columns=['Epoch', 'Batch', 'Loss'])
         self.verbose = verbose
 
-        if not cuda or not torch.cuda.is_available():
+        if not torch.cuda.is_available():
             device = 'cpu'
-        elif isinstance(cuda, str):
-            device = cuda
         else:
             device = 'cuda'
 

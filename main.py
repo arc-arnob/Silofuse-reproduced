@@ -57,7 +57,7 @@ def main(dataset=None, trained_model=None):
         print(train_size, val_size, test_size)
 
         # Ensure the directory exists
-        output_dir = f'data/interim/{dataset}_latent/'
+        output_dir = f'data/interim/{dataset}/'
         os.makedirs(output_dir, exist_ok=True)
 
         # Save X arrays
@@ -79,8 +79,8 @@ def main(dataset=None, trained_model=None):
         
         info_file = {
         "task_type": "binclass",
-        "name": f"{dataset}_latent",
-        "id": f"{dataset}_latent--id",
+        "name": f"{dataset}",
+        "id": f"{dataset}--id",
         "train_size": train_size,
         "val_size": val_size,
         "test_size": test_size,
@@ -88,16 +88,16 @@ def main(dataset=None, trained_model=None):
         "n_cat_features": cat_features_size
         }
         
-        os.makedirs(f"data/interim/{dataset}_latent", exist_ok=True)
-        with open(f"data/interim/{dataset}_latent/info.json", "w") as info_writer:
+        os.makedirs(f"data/interim/{dataset}", exist_ok=True)
+        with open(f"data/interim/{dataset}/info.json", "w") as info_writer:
             json.dump(info_file, info_writer)
 
-        os.makedirs(f"data/external/{dataset}_latent", exist_ok=True)
+        os.makedirs(f"data/external/{dataset}", exist_ok=True)
 
         config_file = {
             'seed': 0,
-            'parent_dir': f'data/external/{dataset}_latent/',
-            'real_data_path': f'data/interim/{dataset}_latent/',
+            'parent_dir': f'data/external/{dataset}/',
+            'real_data_path': f'data/interim/{dataset}/',
             'model_type': 'mlp',
             'num_numerical_features': num_feature_size,   # Set the number of numerical features here
             'device': 'cpu',  
@@ -156,13 +156,13 @@ def main(dataset=None, trained_model=None):
             }
         }
 
-        with open(f"data/external/{dataset}_latent/config.toml", 'w') as toml_file:
+        with open(f"data/external/{dataset}/config.toml", 'w') as toml_file:
             toml.dump(config_file, toml_file)
 
         command = [
         "python", 
         "tabddpm/scripts/pipeline.py", 
-        "--config", f"data/external/{dataset}_latent/config.toml", 
+        "--config", f"data/external/{dataset}/config.toml", 
         "--train", 
         "--sample"
         ]
@@ -830,6 +830,7 @@ def main(dataset=None, trained_model=None):
         generated_data.to_csv("data/external/adult_synth_data.csv", index=False)
 
     # Churn Dataset
+    # Had to remove "Surname" for 86% match
     if dataset == "churn":
         print("Setting up and running for churn Data...")
         # The default block of code to run if no dataset is specified
@@ -1524,7 +1525,7 @@ if __name__ == "__main__":
         main("adult_generate", trained_model=trained_model)
     
     # Run: Done
-    # Resemblance: Matched
+    # Resemblance: Matched, correlation_similarity X
     # Tabsyn..
     elif args.dataset == 'churn':
         trained_model = main(args.dataset)

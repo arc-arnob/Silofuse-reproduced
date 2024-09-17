@@ -57,16 +57,15 @@ The Generated data can be found in `data\external\[NAME_OF_DATSET]_synth_data.cs
 ```
 python evaluation.py --syn_data [SYNTHETIC_DATA_PATH] --real_data [REAL_DATA_PATH] --dataset diabetes
 ```
-Note: This is not perfect and some components fails to find coorelation.
+**Note: This is not perfect and some components fails to find coorelation.**
 
-For confirmation I also used
+For confirmation I also used:
 #### Density estimation of single column and pair-wise correlation ([link](https://docs.sdv.dev/sdmetrics/reports/quality-report/whats-included))
 
 ```
 python eval/eval_density.py --dataname [NAME_OF_DATASET_IN_TAB_SYN] --model [METHOD_NAME] --path [PATH_TO_SYNTHETIC_DATA]
 ```
-Note to use this, follow the TabSyn tutorial and use real dataset from tabsyn subdirectory.
-
+**Note to use this, follow the TabSyn tutorial and use real dataset from tabsyn subdirectory. You will need to preprocess the data as shown in Tabsyn section.**
 
 ## TabSyn Setup
 ## Preparing Datasets

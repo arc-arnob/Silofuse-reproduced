@@ -99,4 +99,4 @@ def resemblance_measure(real_data, synthetic_data):
 
     resemblance_score /= n
     print(f"Resemblance Score: {resemblance_score}")
-    return resemblance_score
+    return resemblance_score, n

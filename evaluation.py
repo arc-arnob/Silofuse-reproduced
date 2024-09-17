@@ -1,5 +1,6 @@
 import argparse
-from VAE.utils import resemblance
+import subprocess
+from VAE.utils import resemblance, postprocess
 import pandas as pd
 import numpy as np
 
@@ -36,7 +37,27 @@ def main():
         real_data = real_data.iloc[:, :-1]
 
     # Convert to numpy arrays and pass to the resemblance measure function
-    resemblance.resemblance_measure(syn_data.to_numpy(), real_data.to_numpy())
+    _, n = resemblance.resemblance_measure(syn_data.to_numpy(), real_data.to_numpy())
+    if n != 5:
+        print("Some Resemblance Tests Failed running more advanced test...")
+        latent_path = f"data/external/{dataset_type}_latent/y_train.npy"
+        synth_data_path = f"data/external/{dataset_type}_synth_data.csv"
+        output_path = f"tabsyn/synthetic/{dataset_type}/silo_{dataset_type}_gen.csv"
+        # This has to be cleaned, this is a temp code as pwd would be set in subprocess
+        tabsyn_path = f"synthetic/{dataset_type}/silo_{dataset_type}_gen.csv"
+        postprocess.process_bin_class_data(dataset_type, latent_path, synth_data_path, output_path)
 
+        # Run the eval_density script using subprocess
+        try:
+            result = subprocess.run(
+                ['python', 'eval/eval_density.py', '--dataname', dataset_type, '--model', 'tabsyn', '--path', tabsyn_path],
+                check=True,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                cwd='tabsyn'
+            )
+            print(result.stdout.decode('utf-8'))
+        except subprocess.CalledProcessError as e:
+            print(f"Error while running eval_density.py: {e.stderr.decode('utf-8')}")
 if __name__ == '__main__':
     main()

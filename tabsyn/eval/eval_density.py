@@ -72,7 +72,6 @@ if __name__ == '__main__':
     real_path = f'synthetic/{dataname}/real.csv'
 
     data_dir = f'data/{dataname}' 
-    print(syn_path)
 
     with open(f'{data_dir}/info.json', 'r') as f:
         info = json.load(f)

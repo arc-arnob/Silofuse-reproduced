@@ -3,8 +3,9 @@
 # To-Do List
 
 ## Features to Implement
-- [ ] **Rectify Issues in Silofuse with Adult & Covtype dataser**
+- [ ] **Rectify Issues in Silofuse with Adult & Covtype dataset**
 - [ ] **Add a function to preprocess final data to run SDMetrics**
+- [ ] **Add Theil's U test to replicate categorical scores**
   
 ## Error Handling
 - [ ] **Add try-except blocks** to handle missing or misaligned columns between real and synthetic data.

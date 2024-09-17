@@ -1,0 +1,862 @@
+,Column 1,Column 2,Metric,Score,Real Correlation,Synthetic Correlation,Error
+0,0,1,CorrelationSimilarity,0.9683391681923956,0.0901956358694289,0.026873972254220124,
+1,0,2,CorrelationSimilarity,0.9787399930048727,0.013303996459108914,-0.0292160175311457,
+2,0,3,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '3' contains a constant value. Correlation is undefined for constant data.
+3,0,4,CorrelationSimilarity,0.9955080246299934,-0.010390068182169069,-0.0014061174421560166,
+4,0,5,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '5' contains a constant value. Correlation is undefined for constant data.
+5,0,6,CorrelationSimilarity,0.9963237610880864,0.005163904773101316,-0.002188573050725923,
+6,0,7,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '7' contains a constant value. Correlation is undefined for constant data.
+7,0,8,CorrelationSimilarity,0.9971260030580259,-0.06273353100401854,-0.05698553712007036,
+8,0,9,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '9' contains a constant value. Correlation is undefined for constant data.
+9,0,10,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '10' contains a constant value. Correlation is undefined for constant data.
+10,0,11,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '11' contains a constant value. Correlation is undefined for constant data.
+11,0,12,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '12' contains a constant value. Correlation is undefined for constant data.
+12,0,13,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '13' contains a constant value. Correlation is undefined for constant data.
+13,0,14,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '14' contains a constant value. Correlation is undefined for constant data.
+14,0,15,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '15' contains a constant value. Correlation is undefined for constant data.
+15,0,16,CorrelationSimilarity,,,,ConstantInputError: The real data in column '16' contains a constant value. Correlation is undefined for constant data.
+16,0,17,CorrelationSimilarity,,,,ConstantInputError: The real data in column '17' contains a constant value. Correlation is undefined for constant data.
+17,0,18,CorrelationSimilarity,0.9995591393482943,-0.001397635126439244,-0.0005159138230277824,
+18,0,19,CorrelationSimilarity,0.986624251486505,-0.08221518964639107,-0.055463692619401136,
+19,0,20,CorrelationSimilarity,0.9970227896456281,-0.04080761165297293,-0.034853190944229104,
+20,0,21,CorrelationSimilarity,0.9924373342766889,-0.07299620516359571,-0.05787087371697341,
+21,0,22,CorrelationSimilarity,0.9922072147581341,-0.07238357053164202,-0.05679800004791025,
+22,0,23,CorrelationSimilarity,0.9768034819527545,0.20756336599961803,0.16117032990512703,
+23,0,24,CorrelationSimilarity,0.9795062484538672,0.20669678869079589,0.16570928559853043,
+24,0,25,CorrelationSimilarity,0.9763454959561381,0.0756668000140634,0.028357791926339457,
+25,0,26,CorrelationSimilarity,0.9761521003450548,-0.010740917406575953,0.03695488190331439,
+26,0,27,CorrelationSimilarity,0.9889092870336637,-0.041220797705854954,-0.019039371773182226,
+27,0,28,CorrelationSimilarity,0.9999813349530423,0.05431525258172376,0.05427792248780842,
+28,0,29,CorrelationSimilarity,0.9934468928985739,-0.11265855104523873,-0.09955233684238655,
+29,0,30,CorrelationSimilarity,0.9983791533510785,-0.11922541742135001,-0.11598372412350715,
+30,0,31,CorrelationSimilarity,0.9841292824527229,0.2637517088961226,0.23201027380156847,
+31,0,32,CorrelationSimilarity,0.9461545855949324,0.23888118598221003,0.13119035717207475,
+32,0,33,CorrelationSimilarity,0.9986548974420367,-0.024825411524897,-0.02751561664082351,
+33,0,34,CorrelationSimilarity,0.9938686987665863,-0.06686056231565304,-0.05459795984882562,
+34,0,35,CorrelationSimilarity,0.9936017201237974,-0.06678882908465106,-0.053992269332245935,
+35,0,36,CorrelationSimilarity,0.9876530627776074,0.18328974449582372,0.1585958700510385,
+36,0,37,CorrelationSimilarity,0.9625881276786175,0.2061010546791805,0.13127731003641532,
+37,0,38,ContingencySimilarity,0.9398976711362033,,,
+38,0,39,ContingencySimilarity,0.7613903316866619,,,
+39,0,40,ContingencySimilarity,0.921814114326041,,,
+40,0,41,ContingencySimilarity,0.0,,,
+41,1,2,CorrelationSimilarity,0.9856141240158592,0.003607793607459506,0.03237954557574106,
+42,1,3,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '3' contains a constant value. Correlation is undefined for constant data.
+43,1,4,CorrelationSimilarity,0.9994925607820365,-0.0009165186876184943,9.835974830843079e-05,
+44,1,5,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '5' contains a constant value. Correlation is undefined for constant data.
+45,1,6,CorrelationSimilarity,0.9688334848100292,0.0009346871958747547,0.06326771757581635,
+46,1,7,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '7' contains a constant value. Correlation is undefined for constant data.
+47,1,8,CorrelationSimilarity,0.9136251640405022,-0.002611285077776081,0.17013838684121957,
+48,1,9,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '9' contains a constant value. Correlation is undefined for constant data.
+49,1,10,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '10' contains a constant value. Correlation is undefined for constant data.
+50,1,11,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '11' contains a constant value. Correlation is undefined for constant data.
+51,1,12,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '12' contains a constant value. Correlation is undefined for constant data.
+52,1,13,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '13' contains a constant value. Correlation is undefined for constant data.
+53,1,14,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '14' contains a constant value. Correlation is undefined for constant data.
+54,1,15,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '15' contains a constant value. Correlation is undefined for constant data.
+55,1,16,CorrelationSimilarity,,,,ConstantInputError: The real data in column '16' contains a constant value. Correlation is undefined for constant data.
+56,1,17,CorrelationSimilarity,,,,ConstantInputError: The real data in column '17' contains a constant value. Correlation is undefined for constant data.
+57,1,18,CorrelationSimilarity,0.9999803086327698,-0.0009408228506115761,-0.0009014401161510526,
+58,1,19,CorrelationSimilarity,0.9440315660698366,-0.007321849459334372,-0.1192587173196612,
+59,1,20,CorrelationSimilarity,0.9746266454656787,-0.003630640555578406,-0.054377349624221166,
+60,1,21,CorrelationSimilarity,0.9327699588407854,-0.006377135099857637,-0.14083721741828692,
+61,1,22,CorrelationSimilarity,0.9334897612789528,-0.00629054915381072,-0.13931102659590505,
+62,1,23,CorrelationSimilarity,0.9973426251755869,0.01713929331214031,0.011824543663314204,
+63,1,24,CorrelationSimilarity,0.9903927920961159,0.016923757189267252,-0.0022906586185010647,
+64,1,25,CorrelationSimilarity,0.9234137308906802,0.007755980360672296,0.16092851857931184,
+65,1,26,CorrelationSimilarity,0.9707756604279734,-0.003327872403065992,-0.06177655154711935,
+66,1,27,CorrelationSimilarity,0.9930017468286129,-0.0031743201319792925,-0.01717082647475361,
+67,1,28,CorrelationSimilarity,0.9006979800653818,-0.009954317358871166,-0.2085583572281075,
+68,1,29,CorrelationSimilarity,0.9921920268367523,-0.008699338537805579,-0.024315284864300964,
+69,1,30,CorrelationSimilarity,0.9640230176953478,-0.00701190855370991,0.06494205605559453,
+70,1,31,CorrelationSimilarity,0.9918258562553667,0.0010488857837547406,-0.015299401705511962,
+71,1,32,CorrelationSimilarity,0.9913717192336374,0.002032445178223973,0.019289006710949172,
+72,1,33,CorrelationSimilarity,0.9900284414438899,-0.0013663283520501234,0.018576788760170167,
+73,1,34,CorrelationSimilarity,0.9355740815744593,-0.006379839603456498,-0.13523167645453793,
+74,1,35,CorrelationSimilarity,0.9361751530356343,-0.006257820629328854,-0.13390751455806027,
+75,1,36,CorrelationSimilarity,0.9941648586377825,-0.002029698830698399,-0.01369998155513343,
+76,1,37,CorrelationSimilarity,0.9926156424291536,0.006747096352560281,-0.00802161878913263,
+77,1,38,ContingencySimilarity,0.0076441072688780975,,,
+78,1,39,ContingencySimilarity,0.007600000000000162,,,
+79,1,40,ContingencySimilarity,0.007600000000000162,,,
+80,1,41,ContingencySimilarity,0.0,,,
+81,2,3,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '3' contains a constant value. Correlation is undefined for constant data.
+82,2,4,CorrelationSimilarity,0.998471378363578,-0.003608112174057861,-0.0066653554469018415,
+83,2,5,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '5' contains a constant value. Correlation is undefined for constant data.
+84,2,6,CorrelationSimilarity,0.9345196925090666,0.0023142593877674275,0.13327487436963414,
+85,2,7,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '7' contains a constant value. Correlation is undefined for constant data.
+86,2,8,CorrelationSimilarity,0.7558823834210273,0.011217794246358341,0.49945302740430364,
+87,2,9,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '9' contains a constant value. Correlation is undefined for constant data.
+88,2,10,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '10' contains a constant value. Correlation is undefined for constant data.
+89,2,11,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '11' contains a constant value. Correlation is undefined for constant data.
+90,2,12,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '12' contains a constant value. Correlation is undefined for constant data.
+91,2,13,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '13' contains a constant value. Correlation is undefined for constant data.
+92,2,14,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '14' contains a constant value. Correlation is undefined for constant data.
+93,2,15,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '15' contains a constant value. Correlation is undefined for constant data.
+94,2,16,CorrelationSimilarity,,,,ConstantInputError: The real data in column '16' contains a constant value. Correlation is undefined for constant data.
+95,2,17,CorrelationSimilarity,,,,ConstantInputError: The real data in column '17' contains a constant value. Correlation is undefined for constant data.
+96,2,18,CorrelationSimilarity,0.9388516345204019,-0.0012822175402820764,0.12101451341891428,
+97,2,19,CorrelationSimilarity,0.9240410584734559,-0.028096191072970435,-0.1800140741260587,
+98,2,20,CorrelationSimilarity,0.9629731045118545,-0.012715215477820084,-0.08676900645411117,
+99,2,21,CorrelationSimilarity,0.9010038828245245,-0.02258321403320965,-0.2205754483841607,
+100,2,22,CorrelationSimilarity,0.909008000172196,-0.02265685980252258,-0.2046408594581307,
+101,2,23,CorrelationSimilarity,0.9395368352889157,-0.013917910475121557,-0.13484423989729016,
+102,2,24,CorrelationSimilarity,0.9430690957253076,-0.013747704224464061,-0.12760951277384894,
+103,2,25,CorrelationSimilarity,0.896103112927406,0.030262658778052044,0.23805643292324005,
+104,2,26,CorrelationSimilarity,0.9438763460896921,-0.012327521846433136,-0.124574829667049,
+105,2,27,CorrelationSimilarity,0.9912158416809767,-0.007965392573340474,0.009602924064706302,
+106,2,28,CorrelationSimilarity,0.871393524694217,-0.03175260796885158,-0.2889655585804175,
+107,2,29,CorrelationSimilarity,0.8258448210482037,-0.0023716112630461274,0.3459387466405466,
+108,2,30,CorrelationSimilarity,0.8544473727308204,0.022300444036373542,0.3134056985747329,
+109,2,31,CorrelationSimilarity,0.9406110361327453,-0.013087413545806646,-0.1318653412803159,
+110,2,32,CorrelationSimilarity,0.9073726735634804,0.02578667961069759,-0.1594679732623417,
+111,2,33,CorrelationSimilarity,0.9851628664513944,-0.006240197862648312,0.02343406923456291,
+112,2,34,CorrelationSimilarity,0.9013760237187152,-0.015621557618432525,-0.2128695101810022,
+113,2,35,CorrelationSimilarity,0.9038162543637901,-0.014453685532599767,-0.2068211768050196,
+114,2,36,CorrelationSimilarity,0.9438021281731457,-0.014168716879667968,-0.1265644605333766,
+115,2,37,CorrelationSimilarity,0.9519771981752606,-0.012917539120309475,-0.1089631427697883,
+116,2,38,ContingencySimilarity,0.028905716302046636,,,
+117,2,39,ContingencySimilarity,0.028664643613267482,,,
+118,2,40,ContingencySimilarity,0.028817501764290765,,,
+119,2,41,ContingencySimilarity,0.0,,,
+120,3,4,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '3' contains a constant value. Correlation is undefined for constant data.
+121,3,5,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+122,3,6,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '3' contains a constant value. Correlation is undefined for constant data.
+123,3,7,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+124,3,8,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '3' contains a constant value. Correlation is undefined for constant data.
+125,3,9,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+126,3,10,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+127,3,11,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+128,3,12,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+129,3,13,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+130,3,14,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+131,3,15,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+132,3,16,CorrelationSimilarity,,,,ConstantInputError: The real data in column '16' contains a constant value. Correlation is undefined for constant data.
+133,3,17,CorrelationSimilarity,,,,ConstantInputError: The real data in column '17' contains a constant value. Correlation is undefined for constant data.
+134,3,18,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '3' contains a constant value. Correlation is undefined for constant data.
+135,3,19,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '3' contains a constant value. Correlation is undefined for constant data.
+136,3,20,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '3' contains a constant value. Correlation is undefined for constant data.
+137,3,21,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '3' contains a constant value. Correlation is undefined for constant data.
+138,3,22,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '3' contains a constant value. Correlation is undefined for constant data.
+139,3,23,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '3' contains a constant value. Correlation is undefined for constant data.
+140,3,24,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '3' contains a constant value. Correlation is undefined for constant data.
+141,3,25,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '3' contains a constant value. Correlation is undefined for constant data.
+142,3,26,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '3' contains a constant value. Correlation is undefined for constant data.
+143,3,27,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '3' contains a constant value. Correlation is undefined for constant data.
+144,3,28,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '3' contains a constant value. Correlation is undefined for constant data.
+145,3,29,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '3' contains a constant value. Correlation is undefined for constant data.
+146,3,30,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '3' contains a constant value. Correlation is undefined for constant data.
+147,3,31,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '3' contains a constant value. Correlation is undefined for constant data.
+148,3,32,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '3' contains a constant value. Correlation is undefined for constant data.
+149,3,33,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '3' contains a constant value. Correlation is undefined for constant data.
+150,3,34,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '3' contains a constant value. Correlation is undefined for constant data.
+151,3,35,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '3' contains a constant value. Correlation is undefined for constant data.
+152,3,36,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '3' contains a constant value. Correlation is undefined for constant data.
+153,3,37,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '3' contains a constant value. Correlation is undefined for constant data.
+154,3,38,ContingencySimilarity,0.0,,,
+155,3,39,ContingencySimilarity,1.1102230246251565e-16,,,
+156,3,40,ContingencySimilarity,1.1102230246251565e-16,,,
+157,3,41,ContingencySimilarity,0.0,,,
+158,4,5,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '5' contains a constant value. Correlation is undefined for constant data.
+159,4,6,CorrelationSimilarity,0.9960572968008468,-0.008442788432474122,-0.0005573820341677387,
+160,4,7,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '7' contains a constant value. Correlation is undefined for constant data.
+161,4,8,CorrelationSimilarity,0.9683149086440579,-0.07344478136275459,-0.010074598650870422,
+162,4,9,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '9' contains a constant value. Correlation is undefined for constant data.
+163,4,10,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '10' contains a constant value. Correlation is undefined for constant data.
+164,4,11,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '11' contains a constant value. Correlation is undefined for constant data.
+165,4,12,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '12' contains a constant value. Correlation is undefined for constant data.
+166,4,13,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '13' contains a constant value. Correlation is undefined for constant data.
+167,4,14,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '14' contains a constant value. Correlation is undefined for constant data.
+168,4,15,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '15' contains a constant value. Correlation is undefined for constant data.
+169,4,16,CorrelationSimilarity,,,,ConstantInputError: The real data in column '16' contains a constant value. Correlation is undefined for constant data.
+170,4,17,CorrelationSimilarity,,,,ConstantInputError: The real data in column '17' contains a constant value. Correlation is undefined for constant data.
+171,4,18,CorrelationSimilarity,0.9957685815861904,-0.008809385615581852,-0.0003465487879626856,
+172,4,19,CorrelationSimilarity,0.9583408973116974,-0.024240959648859743,0.05907724572774546,
+173,4,20,CorrelationSimilarity,0.9679991822453524,0.023135008524228846,0.08713664403352407,
+174,4,21,CorrelationSimilarity,0.980353898588224,-0.047475835476155415,-0.008183632652603457,
+175,4,22,CorrelationSimilarity,0.975034772882539,-0.05796824839779054,-0.008037794162868542,
+176,4,23,CorrelationSimilarity,0.9863573148764737,-0.03328096307273663,-0.005995592825684019,
+177,4,24,CorrelationSimilarity,0.9859972538618903,-0.0338986717478106,-0.005893179471591216,
+178,4,25,CorrelationSimilarity,0.9754095996064163,0.05877914442886362,0.009598343641696124,
+179,4,26,CorrelationSimilarity,0.9887562615545886,-0.027631599663534276,-0.0051441227727115416,
+180,4,27,CorrelationSimilarity,0.9869709215969403,-0.02881255830657555,-0.002754401500456231,
+181,4,28,CorrelationSimilarity,0.9847753353075979,0.03894607293004487,0.008496743545240491,
+182,4,29,CorrelationSimilarity,0.9836461342823668,-0.04655444145962655,-0.013846710024360234,
+183,4,30,CorrelationSimilarity,0.9830610790548431,-0.050912163264067424,-0.017034321373753467,
+184,4,31,CorrelationSimilarity,0.9732028927475147,0.04908314171645014,-0.0045110727885203546,
+185,4,32,CorrelationSimilarity,0.9974114211721437,0.035536627149413955,0.030359469493701243,
+186,4,33,CorrelationSimilarity,0.9917480215145877,-0.020377575049314235,-0.003873618078489701,
+187,4,34,CorrelationSimilarity,0.9768218498674229,-0.054062185962952675,-0.0077058856977985065,
+188,4,35,CorrelationSimilarity,0.9751499364495702,-0.057391904215718936,-0.007691777114859229,
+189,4,36,CorrelationSimilarity,0.9844615019930112,0.02555480218948425,-0.00552219382449346,
+190,4,37,CorrelationSimilarity,0.9858743563950989,-0.03404627958267532,-0.005794992372873208,
+191,4,38,ContingencySimilarity,0.9365644318983768,,,
+192,4,39,ContingencySimilarity,0.7633956951305575,,,
+193,4,40,ContingencySimilarity,0.9203137614678899,,,
+194,4,41,ContingencySimilarity,0.0,,,
+195,5,6,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '5' contains a constant value. Correlation is undefined for constant data.
+196,5,7,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+197,5,8,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '5' contains a constant value. Correlation is undefined for constant data.
+198,5,9,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+199,5,10,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+200,5,11,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+201,5,12,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+202,5,13,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+203,5,14,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+204,5,15,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+205,5,16,CorrelationSimilarity,,,,ConstantInputError: The real data in column '16' contains a constant value. Correlation is undefined for constant data.
+206,5,17,CorrelationSimilarity,,,,ConstantInputError: The real data in column '17' contains a constant value. Correlation is undefined for constant data.
+207,5,18,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '5' contains a constant value. Correlation is undefined for constant data.
+208,5,19,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '5' contains a constant value. Correlation is undefined for constant data.
+209,5,20,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '5' contains a constant value. Correlation is undefined for constant data.
+210,5,21,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '5' contains a constant value. Correlation is undefined for constant data.
+211,5,22,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '5' contains a constant value. Correlation is undefined for constant data.
+212,5,23,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '5' contains a constant value. Correlation is undefined for constant data.
+213,5,24,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '5' contains a constant value. Correlation is undefined for constant data.
+214,5,25,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '5' contains a constant value. Correlation is undefined for constant data.
+215,5,26,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '5' contains a constant value. Correlation is undefined for constant data.
+216,5,27,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '5' contains a constant value. Correlation is undefined for constant data.
+217,5,28,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '5' contains a constant value. Correlation is undefined for constant data.
+218,5,29,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '5' contains a constant value. Correlation is undefined for constant data.
+219,5,30,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '5' contains a constant value. Correlation is undefined for constant data.
+220,5,31,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '5' contains a constant value. Correlation is undefined for constant data.
+221,5,32,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '5' contains a constant value. Correlation is undefined for constant data.
+222,5,33,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '5' contains a constant value. Correlation is undefined for constant data.
+223,5,34,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '5' contains a constant value. Correlation is undefined for constant data.
+224,5,35,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '5' contains a constant value. Correlation is undefined for constant data.
+225,5,36,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '5' contains a constant value. Correlation is undefined for constant data.
+226,5,37,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '5' contains a constant value. Correlation is undefined for constant data.
+227,5,38,ContingencySimilarity,0.0,,,
+228,5,39,ContingencySimilarity,1.1102230246251565e-16,,,
+229,5,40,ContingencySimilarity,1.1102230246251565e-16,,,
+230,5,41,ContingencySimilarity,0.0,,,
+231,6,7,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '7' contains a constant value. Correlation is undefined for constant data.
+232,6,8,CorrelationSimilarity,0.969996957926695,0.1142196086749515,0.05421352452834166,
+233,6,9,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '9' contains a constant value. Correlation is undefined for constant data.
+234,6,10,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '10' contains a constant value. Correlation is undefined for constant data.
+235,6,11,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '11' contains a constant value. Correlation is undefined for constant data.
+236,6,12,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '12' contains a constant value. Correlation is undefined for constant data.
+237,6,13,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '13' contains a constant value. Correlation is undefined for constant data.
+238,6,14,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '14' contains a constant value. Correlation is undefined for constant data.
+239,6,15,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '15' contains a constant value. Correlation is undefined for constant data.
+240,6,16,CorrelationSimilarity,,,,ConstantInputError: The real data in column '16' contains a constant value. Correlation is undefined for constant data.
+241,6,17,CorrelationSimilarity,,,,ConstantInputError: The real data in column '17' contains a constant value. Correlation is undefined for constant data.
+242,6,18,CorrelationSimilarity,0.9809811037045264,0.8407720325306427,0.8788098251215899,
+243,6,19,CorrelationSimilarity,0.9776834654163319,-0.06725670007227572,-0.022623630904939417,
+244,6,20,CorrelationSimilarity,0.9900351896295503,-0.03368644277562945,-0.013756822034730115,
+245,6,21,CorrelationSimilarity,0.9817903791251157,-0.058971754743200905,-0.02255251299343225,
+246,6,22,CorrelationSimilarity,0.9820011021230342,-0.05827847506918256,-0.022280679315250976,
+247,6,23,CorrelationSimilarity,0.9911764846316938,-0.031707004450324025,-0.01405997371371163,
+248,6,24,CorrelationSimilarity,0.99118720490383,-0.03065783864314821,-0.013032248450808219,
+249,6,25,CorrelationSimilarity,0.9790690420045224,0.06918352667759675,0.027321610686641587,
+250,6,26,CorrelationSimilarity,0.9967487339965438,-0.02087617399331789,-0.01437364198640555,
+251,6,27,CorrelationSimilarity,0.9916181858367173,-0.02397813098235043,-0.007214502655785222,
+252,6,28,CorrelationSimilarity,0.9970564530014956,-0.008950182447595278,-0.0030630884505863814,
+253,6,29,CorrelationSimilarity,0.9840948521475715,-0.049071675494289674,-0.017261379789432717,
+254,6,30,CorrelationSimilarity,0.9887964367790776,-0.03429065000506292,-0.011883523563218031,
+255,6,31,CorrelationSimilarity,0.9977539347533972,-0.009675908223480597,-0.014168038716686093,
+256,6,32,CorrelationSimilarity,0.9848021290292474,-0.03065902921626485,-0.00026328727475953854,
+257,6,33,CorrelationSimilarity,0.9915851340425956,-0.02169592447762679,-0.004866192562817938,
+258,6,34,CorrelationSimilarity,0.9825589648337383,-0.05642596077333943,-0.021543890440815956,
+259,6,35,CorrelationSimilarity,0.982136144928325,-0.05699337562113328,-0.02126566547778322,
+260,6,36,CorrelationSimilarity,0.9932538981100795,-0.028159913771019892,-0.014667709991178777,
+261,6,37,CorrelationSimilarity,0.9876159564769065,-0.030125296015036274,-0.005357208968849174,
+262,6,38,ContingencySimilarity,0.9444741002117149,,,
+263,6,39,ContingencySimilarity,0.7714612561750176,,,
+264,6,40,ContingencySimilarity,0.9226719830628087,,,
+265,6,41,ContingencySimilarity,0.0,,,
+266,7,8,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '7' contains a constant value. Correlation is undefined for constant data.
+267,7,9,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+268,7,10,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+269,7,11,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+270,7,12,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+271,7,13,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+272,7,14,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+273,7,15,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+274,7,16,CorrelationSimilarity,,,,ConstantInputError: The real data in column '16' contains a constant value. Correlation is undefined for constant data.
+275,7,17,CorrelationSimilarity,,,,ConstantInputError: The real data in column '17' contains a constant value. Correlation is undefined for constant data.
+276,7,18,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '7' contains a constant value. Correlation is undefined for constant data.
+277,7,19,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '7' contains a constant value. Correlation is undefined for constant data.
+278,7,20,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '7' contains a constant value. Correlation is undefined for constant data.
+279,7,21,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '7' contains a constant value. Correlation is undefined for constant data.
+280,7,22,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '7' contains a constant value. Correlation is undefined for constant data.
+281,7,23,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '7' contains a constant value. Correlation is undefined for constant data.
+282,7,24,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '7' contains a constant value. Correlation is undefined for constant data.
+283,7,25,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '7' contains a constant value. Correlation is undefined for constant data.
+284,7,26,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '7' contains a constant value. Correlation is undefined for constant data.
+285,7,27,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '7' contains a constant value. Correlation is undefined for constant data.
+286,7,28,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '7' contains a constant value. Correlation is undefined for constant data.
+287,7,29,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '7' contains a constant value. Correlation is undefined for constant data.
+288,7,30,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '7' contains a constant value. Correlation is undefined for constant data.
+289,7,31,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '7' contains a constant value. Correlation is undefined for constant data.
+290,7,32,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '7' contains a constant value. Correlation is undefined for constant data.
+291,7,33,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '7' contains a constant value. Correlation is undefined for constant data.
+292,7,34,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '7' contains a constant value. Correlation is undefined for constant data.
+293,7,35,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '7' contains a constant value. Correlation is undefined for constant data.
+294,7,36,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '7' contains a constant value. Correlation is undefined for constant data.
+295,7,37,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '7' contains a constant value. Correlation is undefined for constant data.
+296,7,38,ContingencySimilarity,8.821453775587074e-05,,,
+297,7,39,ContingencySimilarity,8.821453775587074e-05,,,
+298,7,40,ContingencySimilarity,8.821453775598176e-05,,,
+299,7,41,ContingencySimilarity,0.0,,,
+300,8,9,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '9' contains a constant value. Correlation is undefined for constant data.
+301,8,10,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '10' contains a constant value. Correlation is undefined for constant data.
+302,8,11,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '11' contains a constant value. Correlation is undefined for constant data.
+303,8,12,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '12' contains a constant value. Correlation is undefined for constant data.
+304,8,13,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '13' contains a constant value. Correlation is undefined for constant data.
+305,8,14,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '14' contains a constant value. Correlation is undefined for constant data.
+306,8,15,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '15' contains a constant value. Correlation is undefined for constant data.
+307,8,16,CorrelationSimilarity,,,,ConstantInputError: The real data in column '16' contains a constant value. Correlation is undefined for constant data.
+308,8,17,CorrelationSimilarity,,,,ConstantInputError: The real data in column '17' contains a constant value. Correlation is undefined for constant data.
+309,8,18,CorrelationSimilarity,0.9576974542649147,0.11900336379567032,0.03439827232549972,
+310,8,19,CorrelationSimilarity,0.9130592326944245,-0.539719687113867,-0.3658381525027159,
+311,8,20,CorrelationSimilarity,0.9876569836083511,-0.19842016579289407,-0.17373413300959628,
+312,8,21,CorrelationSimilarity,0.9586946909167777,-0.492229406161517,-0.40961878799507245,
+313,8,22,CorrelationSimilarity,0.9515888677552258,-0.49088235877349357,-0.394060094283945,
+314,8,23,CorrelationSimilarity,0.9930058309022787,-0.28404263462083423,-0.2700542964253917,
+315,8,24,CorrelationSimilarity,0.9971086119263656,-0.2787627811199589,-0.27298000497269004,
+316,8,25,CorrelationSimilarity,0.9462336334736436,0.5997188911001274,0.4921861580474146,
+317,8,26,CorrelationSimilarity,0.9810727386867037,-0.22119280023270002,-0.25904732285929255,
+318,8,27,CorrelationSimilarity,0.962783384180486,0.13435957067769214,0.05992633903866413,
+319,8,28,CorrelationSimilarity,0.9947683786602675,-0.39715618871904323,-0.3866929460395782,
+320,8,29,CorrelationSimilarity,0.9768611347035457,0.6245961396075599,0.5783184090146514,
+321,8,30,CorrelationSimilarity,0.9953216343068766,0.6077520344805929,0.5983953030943461,
+322,8,31,CorrelationSimilarity,0.9915133898338502,-0.2564901517039776,-0.27346337203627735,
+323,8,32,CorrelationSimilarity,0.9481890102930056,-0.15950389553440775,-0.26312587494839645,
+324,8,33,CorrelationSimilarity,0.9601889414422844,-0.055495857810870075,0.024126259304561207,
+325,8,34,CorrelationSimilarity,0.9488847732458003,-0.4914139364033514,-0.3891834828949521,
+326,8,35,CorrelationSimilarity,0.9450395142224195,-0.4936198234493523,-0.3836988518941913,
+327,8,36,CorrelationSimilarity,0.9962617633083376,-0.27337568855345723,-0.2658992151701325,
+328,8,37,CorrelationSimilarity,0.9946621279953598,-0.2688067620918538,-0.2581310180825734,
+329,8,38,ContingencySimilarity,0.9339220889202541,,,
+330,8,39,ContingencySimilarity,0.7319438955539873,,,
+331,8,40,ContingencySimilarity,0.872170712773465,,,
+332,8,41,ContingencySimilarity,0.0,,,
+333,9,10,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+334,9,11,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+335,9,12,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+336,9,13,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+337,9,14,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+338,9,15,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+339,9,16,CorrelationSimilarity,,,,ConstantInputError: The real data in column '16' contains a constant value. Correlation is undefined for constant data.
+340,9,17,CorrelationSimilarity,,,,ConstantInputError: The real data in column '17' contains a constant value. Correlation is undefined for constant data.
+341,9,18,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '9' contains a constant value. Correlation is undefined for constant data.
+342,9,19,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '9' contains a constant value. Correlation is undefined for constant data.
+343,9,20,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '9' contains a constant value. Correlation is undefined for constant data.
+344,9,21,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '9' contains a constant value. Correlation is undefined for constant data.
+345,9,22,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '9' contains a constant value. Correlation is undefined for constant data.
+346,9,23,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '9' contains a constant value. Correlation is undefined for constant data.
+347,9,24,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '9' contains a constant value. Correlation is undefined for constant data.
+348,9,25,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '9' contains a constant value. Correlation is undefined for constant data.
+349,9,26,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '9' contains a constant value. Correlation is undefined for constant data.
+350,9,27,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '9' contains a constant value. Correlation is undefined for constant data.
+351,9,28,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '9' contains a constant value. Correlation is undefined for constant data.
+352,9,29,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '9' contains a constant value. Correlation is undefined for constant data.
+353,9,30,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '9' contains a constant value. Correlation is undefined for constant data.
+354,9,31,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '9' contains a constant value. Correlation is undefined for constant data.
+355,9,32,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '9' contains a constant value. Correlation is undefined for constant data.
+356,9,33,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '9' contains a constant value. Correlation is undefined for constant data.
+357,9,34,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '9' contains a constant value. Correlation is undefined for constant data.
+358,9,35,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '9' contains a constant value. Correlation is undefined for constant data.
+359,9,36,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '9' contains a constant value. Correlation is undefined for constant data.
+360,9,37,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '9' contains a constant value. Correlation is undefined for constant data.
+361,9,38,ContingencySimilarity,4.410726887793537e-05,,,
+362,9,39,ContingencySimilarity,4.410726887804639e-05,,,
+363,9,40,ContingencySimilarity,4.410726887804639e-05,,,
+364,9,41,ContingencySimilarity,0.0,,,
+365,10,11,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+366,10,12,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+367,10,13,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+368,10,14,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+369,10,15,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+370,10,16,CorrelationSimilarity,,,,ConstantInputError: The real data in column '16' contains a constant value. Correlation is undefined for constant data.
+371,10,17,CorrelationSimilarity,,,,ConstantInputError: The real data in column '17' contains a constant value. Correlation is undefined for constant data.
+372,10,18,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '10' contains a constant value. Correlation is undefined for constant data.
+373,10,19,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '10' contains a constant value. Correlation is undefined for constant data.
+374,10,20,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '10' contains a constant value. Correlation is undefined for constant data.
+375,10,21,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '10' contains a constant value. Correlation is undefined for constant data.
+376,10,22,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '10' contains a constant value. Correlation is undefined for constant data.
+377,10,23,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '10' contains a constant value. Correlation is undefined for constant data.
+378,10,24,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '10' contains a constant value. Correlation is undefined for constant data.
+379,10,25,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '10' contains a constant value. Correlation is undefined for constant data.
+380,10,26,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '10' contains a constant value. Correlation is undefined for constant data.
+381,10,27,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '10' contains a constant value. Correlation is undefined for constant data.
+382,10,28,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '10' contains a constant value. Correlation is undefined for constant data.
+383,10,29,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '10' contains a constant value. Correlation is undefined for constant data.
+384,10,30,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '10' contains a constant value. Correlation is undefined for constant data.
+385,10,31,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '10' contains a constant value. Correlation is undefined for constant data.
+386,10,32,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '10' contains a constant value. Correlation is undefined for constant data.
+387,10,33,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '10' contains a constant value. Correlation is undefined for constant data.
+388,10,34,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '10' contains a constant value. Correlation is undefined for constant data.
+389,10,35,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '10' contains a constant value. Correlation is undefined for constant data.
+390,10,36,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '10' contains a constant value. Correlation is undefined for constant data.
+391,10,37,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '10' contains a constant value. Correlation is undefined for constant data.
+392,10,38,ContingencySimilarity,0.0,,,
+393,10,39,ContingencySimilarity,1.1102230246251565e-16,,,
+394,10,40,ContingencySimilarity,1.1102230246251565e-16,,,
+395,10,41,ContingencySimilarity,0.0,,,
+396,11,12,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+397,11,13,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+398,11,14,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+399,11,15,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+400,11,16,CorrelationSimilarity,,,,ConstantInputError: The real data in column '16' contains a constant value. Correlation is undefined for constant data.
+401,11,17,CorrelationSimilarity,,,,ConstantInputError: The real data in column '17' contains a constant value. Correlation is undefined for constant data.
+402,11,18,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '11' contains a constant value. Correlation is undefined for constant data.
+403,11,19,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '11' contains a constant value. Correlation is undefined for constant data.
+404,11,20,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '11' contains a constant value. Correlation is undefined for constant data.
+405,11,21,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '11' contains a constant value. Correlation is undefined for constant data.
+406,11,22,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '11' contains a constant value. Correlation is undefined for constant data.
+407,11,23,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '11' contains a constant value. Correlation is undefined for constant data.
+408,11,24,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '11' contains a constant value. Correlation is undefined for constant data.
+409,11,25,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '11' contains a constant value. Correlation is undefined for constant data.
+410,11,26,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '11' contains a constant value. Correlation is undefined for constant data.
+411,11,27,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '11' contains a constant value. Correlation is undefined for constant data.
+412,11,28,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '11' contains a constant value. Correlation is undefined for constant data.
+413,11,29,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '11' contains a constant value. Correlation is undefined for constant data.
+414,11,30,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '11' contains a constant value. Correlation is undefined for constant data.
+415,11,31,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '11' contains a constant value. Correlation is undefined for constant data.
+416,11,32,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '11' contains a constant value. Correlation is undefined for constant data.
+417,11,33,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '11' contains a constant value. Correlation is undefined for constant data.
+418,11,34,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '11' contains a constant value. Correlation is undefined for constant data.
+419,11,35,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '11' contains a constant value. Correlation is undefined for constant data.
+420,11,36,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '11' contains a constant value. Correlation is undefined for constant data.
+421,11,37,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '11' contains a constant value. Correlation is undefined for constant data.
+422,11,38,ContingencySimilarity,0.0003528581510232609,,,
+423,11,39,ContingencySimilarity,0.0003528581510233719,,,
+424,11,40,ContingencySimilarity,0.00030875088214543656,,,
+425,11,41,ContingencySimilarity,0.0,,,
+426,12,13,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+427,12,14,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+428,12,15,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+429,12,16,CorrelationSimilarity,,,,ConstantInputError: The real data in column '16' contains a constant value. Correlation is undefined for constant data.
+430,12,17,CorrelationSimilarity,,,,ConstantInputError: The real data in column '17' contains a constant value. Correlation is undefined for constant data.
+431,12,18,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '12' contains a constant value. Correlation is undefined for constant data.
+432,12,19,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '12' contains a constant value. Correlation is undefined for constant data.
+433,12,20,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '12' contains a constant value. Correlation is undefined for constant data.
+434,12,21,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '12' contains a constant value. Correlation is undefined for constant data.
+435,12,22,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '12' contains a constant value. Correlation is undefined for constant data.
+436,12,23,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '12' contains a constant value. Correlation is undefined for constant data.
+437,12,24,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '12' contains a constant value. Correlation is undefined for constant data.
+438,12,25,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '12' contains a constant value. Correlation is undefined for constant data.
+439,12,26,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '12' contains a constant value. Correlation is undefined for constant data.
+440,12,27,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '12' contains a constant value. Correlation is undefined for constant data.
+441,12,28,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '12' contains a constant value. Correlation is undefined for constant data.
+442,12,29,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '12' contains a constant value. Correlation is undefined for constant data.
+443,12,30,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '12' contains a constant value. Correlation is undefined for constant data.
+444,12,31,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '12' contains a constant value. Correlation is undefined for constant data.
+445,12,32,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '12' contains a constant value. Correlation is undefined for constant data.
+446,12,33,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '12' contains a constant value. Correlation is undefined for constant data.
+447,12,34,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '12' contains a constant value. Correlation is undefined for constant data.
+448,12,35,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '12' contains a constant value. Correlation is undefined for constant data.
+449,12,36,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '12' contains a constant value. Correlation is undefined for constant data.
+450,12,37,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '12' contains a constant value. Correlation is undefined for constant data.
+451,12,38,ContingencySimilarity,4.410726887793537e-05,,,
+452,12,39,ContingencySimilarity,4.410726887804639e-05,,,
+453,12,40,ContingencySimilarity,4.410726887804639e-05,,,
+454,12,41,ContingencySimilarity,0.0,,,
+455,13,14,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+456,13,15,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+457,13,16,CorrelationSimilarity,,,,ConstantInputError: The real data in column '16' contains a constant value. Correlation is undefined for constant data.
+458,13,17,CorrelationSimilarity,,,,ConstantInputError: The real data in column '17' contains a constant value. Correlation is undefined for constant data.
+459,13,18,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '13' contains a constant value. Correlation is undefined for constant data.
+460,13,19,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '13' contains a constant value. Correlation is undefined for constant data.
+461,13,20,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '13' contains a constant value. Correlation is undefined for constant data.
+462,13,21,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '13' contains a constant value. Correlation is undefined for constant data.
+463,13,22,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '13' contains a constant value. Correlation is undefined for constant data.
+464,13,23,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '13' contains a constant value. Correlation is undefined for constant data.
+465,13,24,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '13' contains a constant value. Correlation is undefined for constant data.
+466,13,25,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '13' contains a constant value. Correlation is undefined for constant data.
+467,13,26,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '13' contains a constant value. Correlation is undefined for constant data.
+468,13,27,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '13' contains a constant value. Correlation is undefined for constant data.
+469,13,28,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '13' contains a constant value. Correlation is undefined for constant data.
+470,13,29,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '13' contains a constant value. Correlation is undefined for constant data.
+471,13,30,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '13' contains a constant value. Correlation is undefined for constant data.
+472,13,31,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '13' contains a constant value. Correlation is undefined for constant data.
+473,13,32,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '13' contains a constant value. Correlation is undefined for constant data.
+474,13,33,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '13' contains a constant value. Correlation is undefined for constant data.
+475,13,34,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '13' contains a constant value. Correlation is undefined for constant data.
+476,13,35,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '13' contains a constant value. Correlation is undefined for constant data.
+477,13,36,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '13' contains a constant value. Correlation is undefined for constant data.
+478,13,37,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '13' contains a constant value. Correlation is undefined for constant data.
+479,13,38,ContingencySimilarity,8.821453775587074e-05,,,
+480,13,39,ContingencySimilarity,8.821453775587074e-05,,,
+481,13,40,ContingencySimilarity,8.821453775587074e-05,,,
+482,13,41,ContingencySimilarity,0.0,,,
+483,14,15,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+484,14,16,CorrelationSimilarity,,,,ConstantInputError: The real data in column '16' contains a constant value. Correlation is undefined for constant data.
+485,14,17,CorrelationSimilarity,,,,ConstantInputError: The real data in column '17' contains a constant value. Correlation is undefined for constant data.
+486,14,18,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '14' contains a constant value. Correlation is undefined for constant data.
+487,14,19,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '14' contains a constant value. Correlation is undefined for constant data.
+488,14,20,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '14' contains a constant value. Correlation is undefined for constant data.
+489,14,21,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '14' contains a constant value. Correlation is undefined for constant data.
+490,14,22,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '14' contains a constant value. Correlation is undefined for constant data.
+491,14,23,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '14' contains a constant value. Correlation is undefined for constant data.
+492,14,24,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '14' contains a constant value. Correlation is undefined for constant data.
+493,14,25,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '14' contains a constant value. Correlation is undefined for constant data.
+494,14,26,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '14' contains a constant value. Correlation is undefined for constant data.
+495,14,27,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '14' contains a constant value. Correlation is undefined for constant data.
+496,14,28,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '14' contains a constant value. Correlation is undefined for constant data.
+497,14,29,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '14' contains a constant value. Correlation is undefined for constant data.
+498,14,30,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '14' contains a constant value. Correlation is undefined for constant data.
+499,14,31,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '14' contains a constant value. Correlation is undefined for constant data.
+500,14,32,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '14' contains a constant value. Correlation is undefined for constant data.
+501,14,33,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '14' contains a constant value. Correlation is undefined for constant data.
+502,14,34,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '14' contains a constant value. Correlation is undefined for constant data.
+503,14,35,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '14' contains a constant value. Correlation is undefined for constant data.
+504,14,36,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '14' contains a constant value. Correlation is undefined for constant data.
+505,14,37,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '14' contains a constant value. Correlation is undefined for constant data.
+506,14,38,ContingencySimilarity,1.1102230246251565e-16,,,
+507,14,39,ContingencySimilarity,1.1102230246251565e-16,,,
+508,14,40,ContingencySimilarity,1.1102230246251565e-16,,,
+509,14,41,ContingencySimilarity,0.0,,,
+510,15,16,CorrelationSimilarity,,,,ConstantInputError: The real data in column '16' contains a constant value. Correlation is undefined for constant data.
+511,15,17,CorrelationSimilarity,,,,ConstantInputError: The real data in column '17' contains a constant value. Correlation is undefined for constant data.
+512,15,18,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '15' contains a constant value. Correlation is undefined for constant data.
+513,15,19,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '15' contains a constant value. Correlation is undefined for constant data.
+514,15,20,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '15' contains a constant value. Correlation is undefined for constant data.
+515,15,21,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '15' contains a constant value. Correlation is undefined for constant data.
+516,15,22,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '15' contains a constant value. Correlation is undefined for constant data.
+517,15,23,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '15' contains a constant value. Correlation is undefined for constant data.
+518,15,24,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '15' contains a constant value. Correlation is undefined for constant data.
+519,15,25,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '15' contains a constant value. Correlation is undefined for constant data.
+520,15,26,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '15' contains a constant value. Correlation is undefined for constant data.
+521,15,27,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '15' contains a constant value. Correlation is undefined for constant data.
+522,15,28,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '15' contains a constant value. Correlation is undefined for constant data.
+523,15,29,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '15' contains a constant value. Correlation is undefined for constant data.
+524,15,30,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '15' contains a constant value. Correlation is undefined for constant data.
+525,15,31,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '15' contains a constant value. Correlation is undefined for constant data.
+526,15,32,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '15' contains a constant value. Correlation is undefined for constant data.
+527,15,33,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '15' contains a constant value. Correlation is undefined for constant data.
+528,15,34,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '15' contains a constant value. Correlation is undefined for constant data.
+529,15,35,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '15' contains a constant value. Correlation is undefined for constant data.
+530,15,36,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '15' contains a constant value. Correlation is undefined for constant data.
+531,15,37,CorrelationSimilarity,,,,ConstantInputError: The synthetic data in column '15' contains a constant value. Correlation is undefined for constant data.
+532,15,38,ContingencySimilarity,0.0,,,
+533,15,39,ContingencySimilarity,1.1102230246251565e-16,,,
+534,15,40,ContingencySimilarity,0.0,,,
+535,15,41,ContingencySimilarity,0.0,,,
+536,16,17,CorrelationSimilarity,,,,"TypeError: sequence item 0: expected str instance, int found"
+537,16,18,CorrelationSimilarity,,,,ConstantInputError: The real data in column '16' contains a constant value. Correlation is undefined for constant data.
+538,16,19,CorrelationSimilarity,,,,ConstantInputError: The real data in column '16' contains a constant value. Correlation is undefined for constant data.
+539,16,20,CorrelationSimilarity,,,,ConstantInputError: The real data in column '16' contains a constant value. Correlation is undefined for constant data.
+540,16,21,CorrelationSimilarity,,,,ConstantInputError: The real data in column '16' contains a constant value. Correlation is undefined for constant data.
+541,16,22,CorrelationSimilarity,,,,ConstantInputError: The real data in column '16' contains a constant value. Correlation is undefined for constant data.
+542,16,23,CorrelationSimilarity,,,,ConstantInputError: The real data in column '16' contains a constant value. Correlation is undefined for constant data.
+543,16,24,CorrelationSimilarity,,,,ConstantInputError: The real data in column '16' contains a constant value. Correlation is undefined for constant data.
+544,16,25,CorrelationSimilarity,,,,ConstantInputError: The real data in column '16' contains a constant value. Correlation is undefined for constant data.
+545,16,26,CorrelationSimilarity,,,,ConstantInputError: The real data in column '16' contains a constant value. Correlation is undefined for constant data.
+546,16,27,CorrelationSimilarity,,,,ConstantInputError: The real data in column '16' contains a constant value. Correlation is undefined for constant data.
+547,16,28,CorrelationSimilarity,,,,ConstantInputError: The real data in column '16' contains a constant value. Correlation is undefined for constant data.
+548,16,29,CorrelationSimilarity,,,,ConstantInputError: The real data in column '16' contains a constant value. Correlation is undefined for constant data.
+549,16,30,CorrelationSimilarity,,,,ConstantInputError: The real data in column '16' contains a constant value. Correlation is undefined for constant data.
+550,16,31,CorrelationSimilarity,,,,ConstantInputError: The real data in column '16' contains a constant value. Correlation is undefined for constant data.
+551,16,32,CorrelationSimilarity,,,,ConstantInputError: The real data in column '16' contains a constant value. Correlation is undefined for constant data.
+552,16,33,CorrelationSimilarity,,,,ConstantInputError: The real data in column '16' contains a constant value. Correlation is undefined for constant data.
+553,16,34,CorrelationSimilarity,,,,ConstantInputError: The real data in column '16' contains a constant value. Correlation is undefined for constant data.
+554,16,35,CorrelationSimilarity,,,,ConstantInputError: The real data in column '16' contains a constant value. Correlation is undefined for constant data.
+555,16,36,CorrelationSimilarity,,,,ConstantInputError: The real data in column '16' contains a constant value. Correlation is undefined for constant data.
+556,16,37,CorrelationSimilarity,,,,ConstantInputError: The real data in column '16' contains a constant value. Correlation is undefined for constant data.
+557,16,38,ContingencySimilarity,0.9452299929428369,,,
+558,16,39,ContingencySimilarity,0.7722612561750176,,,
+559,16,40,ContingencySimilarity,0.92897932251235,,,
+560,16,41,ContingencySimilarity,0.0,,,
+561,17,18,CorrelationSimilarity,,,,ConstantInputError: The real data in column '17' contains a constant value. Correlation is undefined for constant data.
+562,17,19,CorrelationSimilarity,,,,ConstantInputError: The real data in column '17' contains a constant value. Correlation is undefined for constant data.
+563,17,20,CorrelationSimilarity,,,,ConstantInputError: The real data in column '17' contains a constant value. Correlation is undefined for constant data.
+564,17,21,CorrelationSimilarity,,,,ConstantInputError: The real data in column '17' contains a constant value. Correlation is undefined for constant data.
+565,17,22,CorrelationSimilarity,,,,ConstantInputError: The real data in column '17' contains a constant value. Correlation is undefined for constant data.
+566,17,23,CorrelationSimilarity,,,,ConstantInputError: The real data in column '17' contains a constant value. Correlation is undefined for constant data.
+567,17,24,CorrelationSimilarity,,,,ConstantInputError: The real data in column '17' contains a constant value. Correlation is undefined for constant data.
+568,17,25,CorrelationSimilarity,,,,ConstantInputError: The real data in column '17' contains a constant value. Correlation is undefined for constant data.
+569,17,26,CorrelationSimilarity,,,,ConstantInputError: The real data in column '17' contains a constant value. Correlation is undefined for constant data.
+570,17,27,CorrelationSimilarity,,,,ConstantInputError: The real data in column '17' contains a constant value. Correlation is undefined for constant data.
+571,17,28,CorrelationSimilarity,,,,ConstantInputError: The real data in column '17' contains a constant value. Correlation is undefined for constant data.
+572,17,29,CorrelationSimilarity,,,,ConstantInputError: The real data in column '17' contains a constant value. Correlation is undefined for constant data.
+573,17,30,CorrelationSimilarity,,,,ConstantInputError: The real data in column '17' contains a constant value. Correlation is undefined for constant data.
+574,17,31,CorrelationSimilarity,,,,ConstantInputError: The real data in column '17' contains a constant value. Correlation is undefined for constant data.
+575,17,32,CorrelationSimilarity,,,,ConstantInputError: The real data in column '17' contains a constant value. Correlation is undefined for constant data.
+576,17,33,CorrelationSimilarity,,,,ConstantInputError: The real data in column '17' contains a constant value. Correlation is undefined for constant data.
+577,17,34,CorrelationSimilarity,,,,ConstantInputError: The real data in column '17' contains a constant value. Correlation is undefined for constant data.
+578,17,35,CorrelationSimilarity,,,,ConstantInputError: The real data in column '17' contains a constant value. Correlation is undefined for constant data.
+579,17,36,CorrelationSimilarity,,,,ConstantInputError: The real data in column '17' contains a constant value. Correlation is undefined for constant data.
+580,17,37,CorrelationSimilarity,,,,ConstantInputError: The real data in column '17' contains a constant value. Correlation is undefined for constant data.
+581,17,38,ContingencySimilarity,0.9452299929428369,,,
+582,17,39,ContingencySimilarity,0.7722612561750176,,,
+583,17,40,ContingencySimilarity,0.92897932251235,,,
+584,17,41,ContingencySimilarity,0.0,,,
+585,18,19,CorrelationSimilarity,0.9717392702560336,-0.07050419316135696,-0.01398273367342414,
+586,18,20,CorrelationSimilarity,0.9864543804925441,-0.03555170594524655,-0.008460466930334747,
+587,18,21,CorrelationSimilarity,0.9760593009952143,-0.062100199700714585,-0.014218801691143208,
+588,18,22,CorrelationSimilarity,0.9762089814388814,-0.061519872767845984,-0.013937835645608687,
+589,18,23,CorrelationSimilarity,0.9878540917032346,-0.03467874996877863,-0.01038693337524775,
+590,18,24,CorrelationSimilarity,0.9885510634477067,-0.033111880105410336,-0.010214007000823654,
+591,18,25,CorrelationSimilarity,0.9733196419317129,0.07035906191120517,0.016998345774631104,
+592,18,26,CorrelationSimilarity,0.9975325425218337,-0.013874692738595987,-0.008939777782263403,
+593,18,27,CorrelationSimilarity,0.9887665561053998,-0.027233149001595635,-0.0047662612123951405,
+594,18,28,CorrelationSimilarity,0.9891032069527738,-0.00699705654230007,0.014796529552152446,
+595,18,29,CorrelationSimilarity,0.98095003667194,-0.06229683804067612,-0.0241969113845562,
+596,18,30,CorrelationSimilarity,0.9840560197472222,-0.053388722649179265,-0.02150076214362377,
+597,18,31,CorrelationSimilarity,0.9991786643619016,-0.008053916419138104,-0.009696587695334878,
+598,18,32,CorrelationSimilarity,0.9886039900072453,-0.03498283610187979,-0.0121908161163705,
+599,18,33,CorrelationSimilarity,0.991091492929371,-0.02467481040654497,-0.0068577962652870625,
+600,18,34,CorrelationSimilarity,0.9764872678046754,-0.06044188296888562,-0.013416418578236583,
+601,18,35,CorrelationSimilarity,0.9762593965964769,-0.060671244497165114,-0.013190037690118936,
+602,18,36,CorrelationSimilarity,0.9896018673759811,-0.030378708722049445,-0.009582443474011573,
+603,18,37,CorrelationSimilarity,0.989069140005863,-0.031945161105937904,-0.010083441117663967,
+604,18,38,ContingencySimilarity,0.9452299929428369,,,
+605,18,39,ContingencySimilarity,0.7710484121383204,,,
+606,18,40,ContingencySimilarity,0.9204050105857445,,,
+607,18,41,ContingencySimilarity,0.0,,,
+608,19,20,CorrelationSimilarity,0.8852140126137114,0.4725959637924517,0.24302398901987443,
+609,19,21,CorrelationSimilarity,0.9675692802115452,0.4610038643682256,0.396142424791316,
+610,19,22,CorrelationSimilarity,0.9740242713395162,0.4548774991602497,0.40292604183928216,
+611,19,23,CorrelationSimilarity,0.9274664955993441,0.15707759511487152,0.012010586313559663,
+612,19,24,CorrelationSimilarity,0.9261235367182854,0.15848366895356064,0.010730742390131344,
+613,19,25,CorrelationSimilarity,0.9272688329777854,-0.6299828651637245,-0.4845205311192953,
+614,19,26,CorrelationSimilarity,0.9668747783408178,0.21816526516701665,0.15191482184865224,
+615,19,27,CorrelationSimilarity,0.915832392837445,-0.26423802601028334,-0.09590281168517345,
+616,19,28,CorrelationSimilarity,0.9337432606874897,0.4650853530702534,0.33257187444523284,
+617,19,29,CorrelationSimilarity,0.961884260068758,-0.39904936076479325,-0.32281788090230934,
+618,19,30,CorrelationSimilarity,0.9533548050980011,-0.47516916907036577,-0.381878779266368,
+619,19,31,CorrelationSimilarity,0.9605162540000625,0.1604783204072054,0.0815108284073304,
+620,19,32,CorrelationSimilarity,0.99310468467988,-0.14043476767892987,-0.12664413703868993,
+621,19,33,CorrelationSimilarity,0.9731778501384905,-0.2054431252022566,-0.15179882547923745,
+622,19,34,CorrelationSimilarity,0.9747693483155087,0.46279814660433827,0.41233684323535563,
+623,19,35,CorrelationSimilarity,0.9864166908378803,0.46370867185006526,0.4365420535258259,
+624,19,36,CorrelationSimilarity,0.9426985454658156,0.1747896472199073,0.060186738151538334,
+625,19,37,CorrelationSimilarity,0.9333965130561076,0.16414857013556938,0.030941596247784642,
+626,19,38,ContingencySimilarity,0.8521927311220889,,,
+627,19,39,ContingencySimilarity,0.7097169371912491,,,
+628,19,40,ContingencySimilarity,0.8328272406492591,,,
+629,19,41,ContingencySimilarity,0.0,,,
+630,20,21,CorrelationSimilarity,0.9163366587999997,-0.14928065139430682,0.01804603100569368,
+631,20,22,CorrelationSimilarity,0.9209905961358662,-0.14814976715241157,0.009869040575855947,
+632,20,23,CorrelationSimilarity,0.9916101075092465,-0.11229458321815242,-0.12907436819965945,
+633,20,24,CorrelationSimilarity,0.9928712583413064,-0.11285666819190796,-0.12711415150929511,
+634,20,25,CorrelationSimilarity,0.9729475037195751,0.19070238360777592,0.13659739104692595,
+635,20,26,CorrelationSimilarity,0.9931904725253455,-0.10813296335358724,-0.0945139084042783,
+636,20,27,CorrelationSimilarity,0.9782549066029987,-0.07783568519750414,-0.0343454984035017,
+637,20,28,CorrelationSimilarity,0.9874301981544956,0.1449002016008384,0.1700398052918472,
+638,20,29,CorrelationSimilarity,0.9871458744015678,0.1957495203762942,0.22145777157315877,
+639,20,30,CorrelationSimilarity,0.9853329971847028,0.17801901781491886,0.20735302344551326,
+640,20,31,CorrelationSimilarity,0.9913254585977428,-0.10746957336166127,-0.1248186561661756,
+641,20,32,CorrelationSimilarity,0.9472299224914885,0.15511767730155868,0.049577522284535665,
+642,20,33,CorrelationSimilarity,0.9957642439150579,-0.05906625455975535,-0.06753776672963963,
+643,20,34,CorrelationSimilarity,0.9240445342863319,-0.14645750895787596,0.005453422469460265,
+644,20,35,CorrelationSimilarity,0.9281391781813587,-0.14611408254953456,-0.0023924389122520527,
+645,20,36,CorrelationSimilarity,0.9908842481452174,-0.09884910402439179,-0.11708060773395704,
+646,20,37,CorrelationSimilarity,0.9935948490802271,-0.1117304957499523,-0.12454079758949817,
+647,20,38,ContingencySimilarity,0.924194142554693,,,
+648,20,39,ContingencySimilarity,0.7480557515878616,,,
+649,20,40,ContingencySimilarity,0.9059740296400847,,,
+650,20,41,ContingencySimilarity,0.0,,,
+651,21,22,CorrelationSimilarity,0.9841395962169255,0.9930131815021157,0.9612923739359668,
+652,21,23,CorrelationSimilarity,0.9472272169138435,-0.22759936749915793,-0.12205380132684497,
+653,21,24,CorrelationSimilarity,0.952339589787224,-0.22775230617199355,-0.13243148574644145,
+654,21,25,CorrelationSimilarity,0.8840492214278115,-0.7659380361765478,-0.5340364790321708,
+655,21,26,CorrelationSimilarity,0.9709306436088464,0.053861383787273176,-0.004277328995033944,
+656,21,27,CorrelationSimilarity,0.9392426728752553,-0.22555434902087013,-0.10403969477138073,
+657,21,28,CorrelationSimilarity,0.9473900110674285,0.3959278354442494,0.29070785757910644,
+658,21,29,CorrelationSimilarity,0.860422781137782,-0.559193905191985,-0.2800394674675491,
+659,21,30,CorrelationSimilarity,0.8683094150641121,-0.6251826626585752,-0.3618014927867994,
+660,21,31,CorrelationSimilarity,0.9647696286353838,-0.018396671626497878,-0.08885741435573022,
+661,21,32,CorrelationSimilarity,0.9316526110027064,-0.277653458491234,-0.14095868049664662,
+662,21,33,CorrelationSimilarity,0.9861448207398442,-0.1731277531264407,-0.14541739460612907,
+663,21,34,CorrelationSimilarity,0.9747269662573927,0.9780905345421542,0.9275444670569397,
+664,21,35,CorrelationSimilarity,0.9659308498630699,0.9794435776815154,0.9113052774076552,
+665,21,36,CorrelationSimilarity,0.9423073196586006,-0.23147865081690797,-0.11609329013410907,
+666,21,37,CorrelationSimilarity,0.9517260811556747,-0.22668246348536278,-0.1301346257967122,
+667,21,38,ContingencySimilarity,0.6934055751587862,,,
+668,21,39,ContingencySimilarity,0.6121054340155258,,,
+669,21,40,ContingencySimilarity,0.7005959068454481,,,
+670,21,41,ContingencySimilarity,0.0,,,
+671,22,23,CorrelationSimilarity,0.9440870655023068,-0.22870335363276673,-0.11687748463738046,
+672,22,24,CorrelationSimilarity,0.9458934841767017,-0.23467146099974764,-0.12645842935315108,
+673,22,25,CorrelationSimilarity,0.89125593027787,-0.7608708951508861,-0.5433827557066261,
+674,22,26,CorrelationSimilarity,0.9752730926706855,0.045929897162925296,-0.0035239174957037494,
+675,22,27,CorrelationSimilarity,0.937122268804707,-0.227753586655739,-0.10199812426515284,
+676,22,28,CorrelationSimilarity,0.945829883536146,0.39421705031808646,0.28587681739037846,
+677,22,29,CorrelationSimilarity,0.8616147244582635,-0.5566894656854751,-0.2799189146020019,
+678,22,30,CorrelationSimilarity,0.8700706948390189,-0.6217303894464807,-0.3618717791245186,
+679,22,31,CorrelationSimilarity,0.9701968446953531,-0.029849715469893692,-0.08945602607918748,
+680,22,32,CorrelationSimilarity,0.9374559482238978,-0.27708907929082444,-0.15200097573862006,
+681,22,33,CorrelationSimilarity,0.9840390375732235,-0.17159359862542772,-0.13967167377187467,
+682,22,34,CorrelationSimilarity,0.9837420329405211,0.9760010463886988,0.943485112269741,
+683,22,35,CorrelationSimilarity,0.97214147814585,0.9846038808306189,0.9288868371223188,
+684,22,36,CorrelationSimilarity,0.9385309152018532,-0.23468487435701746,-0.11174670476072386,
+685,22,37,CorrelationSimilarity,0.9457115958931362,-0.23273541565835665,-0.12415860744462909,
+686,22,38,ContingencySimilarity,0.7000307692307692,,,
+687,22,39,ContingencySimilarity,0.615976923076923,,,
+688,22,40,ContingencySimilarity,0.7046743119266056,,,
+689,22,41,ContingencySimilarity,0.0,,,
+690,23,24,CorrelationSimilarity,0.9881263715222187,0.9886131702132714,0.9648659132577089,
+691,23,25,CorrelationSimilarity,0.9857268488498465,-0.20688981302336656,-0.23543611532367364,
+692,23,26,CorrelationSimilarity,0.9705071451729338,0.260070110516815,0.3190558201709474,
+693,23,27,CorrelationSimilarity,0.9553822750882904,-0.08104786338812543,0.0081875864352937,
+694,23,28,CorrelationSimilarity,0.9226272195639631,0.07102421976349649,-0.08372134110857742,
+695,23,29,CorrelationSimilarity,0.9390582146466454,-0.24792053608387987,-0.369804106790589,
+696,23,30,CorrelationSimilarity,0.9688161641164017,-0.25678639339467957,-0.3191540651618762,
+697,23,31,CorrelationSimilarity,0.9890281027826159,0.37690095815052416,0.39884475258529234,
+698,23,32,CorrelationSimilarity,0.9184860901329805,0.038908146046225764,0.2019359657802646,
+699,23,33,CorrelationSimilarity,0.9444408580536098,0.029487458669002063,0.14060574256178243,
+700,23,34,CorrelationSimilarity,0.9592604631792205,-0.2268861650828925,-0.14540709144133346,
+701,23,35,CorrelationSimilarity,0.9536109672465276,-0.22632962940773294,-0.13355156390078804,
+702,23,36,CorrelationSimilarity,0.98217043723838,0.9301796652465493,0.8945205397233094,
+703,23,37,CorrelationSimilarity,0.9765578501929474,0.9649669413220017,0.9180826417078964,
+704,23,38,ContingencySimilarity,0.8104584333098095,,,
+705,23,39,ContingencySimilarity,0.684585179957657,,,
+706,23,40,ContingencySimilarity,0.8188672547635851,,,
+707,23,41,ContingencySimilarity,0.0,,,
+708,24,25,CorrelationSimilarity,0.9847133999059079,-0.20690711568513143,-0.23748031587331564,
+709,24,26,CorrelationSimilarity,0.9695543073305675,0.2681600650403949,0.3290514503792599,
+710,24,27,CorrelationSimilarity,0.9622984561786376,-0.07600126389235601,-0.0005981762496311636,
+711,24,28,CorrelationSimilarity,0.9279933112821048,0.07405544352092497,-0.0699579339148653,
+712,24,29,CorrelationSimilarity,0.9396895030485992,-0.24630382811521195,-0.36692482201801363,
+713,24,30,CorrelationSimilarity,0.9645079463762214,-0.2545324784911146,-0.3255165857386718,
+714,24,31,CorrelationSimilarity,0.9843506054818444,0.3804391433280664,0.41173793236437756,
+715,24,32,CorrelationSimilarity,0.9174919074379412,0.03532160888934938,0.20033779401346702,
+716,24,33,CorrelationSimilarity,0.9503739071844072,0.026183238866349608,0.12543542449753534,
+717,24,34,CorrelationSimilarity,0.9635042492099679,-0.22754689680525203,-0.15455539522518796,
+718,24,35,CorrelationSimilarity,0.955551066872023,-0.2315671618406131,-0.14266929558465907,
+719,24,36,CorrelationSimilarity,0.9936738456423054,0.9202317921489447,0.9075794834335555,
+720,24,37,CorrelationSimilarity,0.9839196828705936,0.9698879232452958,0.9377272889864829,
+721,24,38,ContingencySimilarity,0.7996505292872266,,,
+722,24,39,ContingencySimilarity,0.6710944248412138,,,
+723,24,40,ContingencySimilarity,0.8050320395201129,,,
+724,24,41,ContingencySimilarity,0.0,,,
+725,25,26,CorrelationSimilarity,0.9836031736408071,-0.3716505936854949,-0.4044442464038808,
+726,25,27,CorrelationSimilarity,0.9269388867370048,0.27844018957807537,0.13231796305208476,
+727,25,28,CorrelationSimilarity,0.9332207064829542,-0.5093086521428114,-0.3757500651087198,
+728,25,29,CorrelationSimilarity,0.9449773629255322,0.7026642206061517,0.5926189464572162,
+729,25,30,CorrelationSimilarity,0.9616454545865089,0.7871676439452648,0.7104585531182825,
+730,25,31,CorrelationSimilarity,0.9999369376297965,-0.16222359829060162,-0.16209747355019458,
+731,25,32,CorrelationSimilarity,0.9981796770415556,0.2805183411285807,0.2841589870454695,
+732,25,33,CorrelationSimilarity,0.9818982027747972,0.2151816193452545,0.17897802489484893,
+733,25,34,CorrelationSimilarity,0.89392623628501,-0.7648772988511974,-0.5527297714212174,
+734,25,35,CorrelationSimilarity,0.9021818496787253,-0.7690297685971865,-0.573393467954637,
+735,25,36,CorrelationSimilarity,0.963306949381247,-0.21017540228315001,-0.2835615035206561,
+736,25,37,CorrelationSimilarity,0.9785835199423558,-0.21184432409994897,-0.2546772842152372,
+737,25,38,ContingencySimilarity,0.19373768525052915,,,
+738,25,39,ContingencySimilarity,0.13619146083274536,,,
+739,25,40,ContingencySimilarity,0.19341679604798878,,,
+740,25,41,ContingencySimilarity,0.0,,,
+741,26,27,CorrelationSimilarity,0.982761327379773,-0.10401662163054219,-0.0695392763900882,
+742,26,28,CorrelationSimilarity,0.9882176218750919,0.1889876783069206,0.16542292205710435,
+743,26,29,CorrelationSimilarity,0.9830263660469238,-0.29526546512402196,-0.3292127330301742,
+744,26,30,CorrelationSimilarity,0.9681723937472897,-0.32476579499368674,-0.38842100749910746,
+745,26,31,CorrelationSimilarity,0.9983543486827607,0.49550995688146277,0.49880125951594134,
+746,26,32,CorrelationSimilarity,0.9848948346548783,-0.004533640178920727,-0.034743970869164184,
+747,26,33,CorrelationSimilarity,0.9990800985800605,-0.0856613044091323,-0.08382150156925335,
+748,26,34,CorrelationSimilarity,0.9708210336298283,0.0505967104902072,-0.007761222250136304,
+749,26,35,CorrelationSimilarity,0.9762440403463432,0.0470551288627685,-0.0004567904445451234,
+750,26,36,CorrelationSimilarity,0.932543499765628,0.22092004939977503,0.3558330498685191,
+751,26,37,CorrelationSimilarity,0.9611927763277412,0.27103367318912774,0.34864812053364524,
+752,26,38,ContingencySimilarity,0.8979774876499647,,,
+753,26,39,ContingencySimilarity,0.7466235003528581,,,
+754,26,40,ContingencySimilarity,0.8999429781227947,,,
+755,26,41,ContingencySimilarity,0.0,,,
+756,27,28,CorrelationSimilarity,0.9435454246899126,-0.3535251996547618,-0.24061604903458714,
+757,27,29,CorrelationSimilarity,0.9415417996413412,0.16568834232645857,0.04877194160914096,
+758,27,30,CorrelationSimilarity,0.9380266388271503,0.2939954160467009,0.1700486937010015,
+759,27,31,CorrelationSimilarity,0.9726403886909049,-0.1179802681151563,-0.06326104549696597,
+760,27,32,CorrelationSimilarity,0.9818214533519445,0.24401445411569783,0.2076573608195868,
+761,27,33,CorrelationSimilarity,0.9257258623947817,0.37786767516919295,0.5264159503796295,
+762,27,34,CorrelationSimilarity,0.9357113570079441,-0.2289776907061594,-0.10040040472204759,
+763,27,35,CorrelationSimilarity,0.9351079620892088,-0.23007734481180583,-0.10029326899022337,
+764,27,36,CorrelationSimilarity,0.986808151798656,-0.07873764421974243,-0.05235394781705437,
+765,27,37,CorrelationSimilarity,0.9709233670193015,-0.08481461066778226,-0.026661344706385228,
+766,27,38,ContingencySimilarity,0.8541611150317573,,,
+767,27,39,ContingencySimilarity,0.6645678193366267,,,
+768,27,40,ContingencySimilarity,0.7877777699364856,,,
+769,27,41,ContingencySimilarity,0.0,,,
+770,28,29,CorrelationSimilarity,0.9495551577389463,-0.3032136324193626,-0.20232394789725505,
+771,28,30,CorrelationSimilarity,0.9316123956472212,-0.5218755076416963,-0.38510029893613873,
+772,28,31,CorrelationSimilarity,0.9852643894367735,0.1470461961145435,0.11757497498809047,
+773,28,32,CorrelationSimilarity,0.9511279378178732,-0.3140748955366918,-0.21633077117243826,
+774,28,33,CorrelationSimilarity,0.9970085285114185,-0.45413551394939067,-0.4601184569265536,
+775,28,34,CorrelationSimilarity,0.9493459742214951,0.41124258493285826,0.30993453337584853,
+776,28,35,CorrelationSimilarity,0.9506331279890178,0.4092081190839803,0.31047437506201586,
+777,28,36,CorrelationSimilarity,0.9519327564650223,0.07405247323634415,-0.0220820138336112,
+778,28,37,CorrelationSimilarity,0.9351036296444247,0.07189955826928723,-0.0578931824418633,
+779,28,38,ContingencySimilarity,0.20757657021877207,,,
+780,28,39,ContingencySimilarity,0.20413316866619602,,,
+781,28,40,ContingencySimilarity,0.23283959068454485,,,
+782,28,41,ContingencySimilarity,0.0,,,
+783,29,30,CorrelationSimilarity,0.978153809242913,0.8959592676737719,0.8522668861595978,
+784,29,31,CorrelationSimilarity,0.9957656228454643,-0.3894297576482049,-0.3978985119572763,
+785,29,32,CorrelationSimilarity,0.9357212608507312,-0.07152370403334915,-0.20008118233188688,
+786,29,33,CorrelationSimilarity,0.9864241961359305,0.008925187351009242,0.03607679507914829,
+787,29,34,CorrelationSimilarity,0.8563899971805845,-0.5737092420877751,-0.2864892364489441,
+788,29,35,CorrelationSimilarity,0.8717804223644459,-0.569154815042693,-0.3127156597715847,
+789,29,36,CorrelationSimilarity,0.9450847259126138,-0.2454195979259311,-0.3552501461007034,
+790,29,37,CorrelationSimilarity,0.9491667165446618,-0.2508897017084991,-0.35255626861917555,
+791,29,38,ContingencySimilarity,0.5454159491884263,,,
+792,29,39,ContingencySimilarity,0.4230434721242059,,,
+793,29,40,ContingencySimilarity,0.48533683839096686,,,
+794,29,41,ContingencySimilarity,0.0,,,
+795,30,31,CorrelationSimilarity,0.9806195081616147,-0.4165075469149233,-0.455268530591694,
+796,30,32,CorrelationSimilarity,0.9130857819340219,0.13390193267074663,-0.03992650346120953,
+797,30,33,CorrelationSimilarity,0.993062343956677,0.20191778604267505,0.21579309812932107,
+798,30,34,CorrelationSimilarity,0.8643920736230146,-0.6415252565857081,-0.3703094038317375,
+799,30,35,CorrelationSimilarity,0.8808895960084472,-0.6346008490656194,-0.3963800410825138,
+800,30,36,CorrelationSimilarity,0.9564104550377093,-0.25564557197211013,-0.34282466189669153,
+801,30,37,CorrelationSimilarity,0.9640953940481829,-0.25940064271031543,-0.3312098546139496,
+802,30,38,ContingencySimilarity,0.42953853211009174,,,
+803,30,39,ContingencySimilarity,0.3443261820748057,,,
+804,30,40,ContingencySimilarity,0.3803037402964009,,,
+805,30,41,ContingencySimilarity,0.0,,,
+806,31,32,CorrelationSimilarity,0.974032960510061,0.24472492563402942,0.2966590046139073,
+807,31,33,CorrelationSimilarity,0.9634427841170204,0.007476019010483148,-0.06563841275547588,
+808,31,34,CorrelationSimilarity,0.9619819434904274,-0.019931773111104854,-0.09596788613024994,
+809,31,35,CorrelationSimilarity,0.9719575117089972,-0.027839989281779616,-0.08392496586378512,
+810,31,36,CorrelationSimilarity,0.9987854289828499,0.40520238947864606,0.40277324744434595,
+811,31,37,CorrelationSimilarity,0.9810749359577633,0.38719823079681515,0.42504835888128856,
+812,31,38,ContingencySimilarity,0.8973921665490473,,,
+813,31,39,ContingencySimilarity,0.7283294989414255,,,
+814,31,40,ContingencySimilarity,0.8789136203246294,,,
+815,31,41,ContingencySimilarity,0.0,,,
+816,32,33,CorrelationSimilarity,0.9663681888789784,0.40529077809804337,0.33802715585600007,
+817,32,34,CorrelationSimilarity,0.9477582699654653,-0.2815536086228062,-0.17707014855373676,
+818,32,35,CorrelationSimilarity,0.9528472092245801,-0.27892429556679854,-0.18461871401595886,
+819,32,36,CorrelationSimilarity,0.9576027752558919,0.04468116818414052,0.1294756176723568,
+820,32,37,CorrelationSimilarity,0.9361493887643275,0.03375875966945287,0.1614599821407977,
+821,32,38,ContingencySimilarity,0.757312773465067,,,
+822,32,39,ContingencySimilarity,0.599957939308398,,,
+823,32,40,ContingencySimilarity,0.7222139026111503,,,
+824,32,41,ContingencySimilarity,0.0,,,
+825,33,34,CorrelationSimilarity,0.9877348306081271,-0.17557744034704884,-0.15104710156330303,
+826,33,35,CorrelationSimilarity,0.9879687642218389,-0.17298476149881634,-0.14892228994249407,
+827,33,36,CorrelationSimilarity,0.9935367985660155,0.03560317361777515,0.048529576485744144,
+828,33,37,CorrelationSimilarity,0.978076220728622,0.03583482654233901,0.07968238508509493,
+829,33,38,ContingencySimilarity,0.8881278052223007,,,
+830,33,39,ContingencySimilarity,0.7528626676076218,,,
+831,33,40,ContingencySimilarity,0.8825273817925194,,,
+832,33,41,ContingencySimilarity,0.0,,,
+833,34,35,CorrelationSimilarity,0.9857036346987312,0.9842271426226159,0.9556344120200784,
+834,34,36,CorrelationSimilarity,0.9504296902332932,-0.23588071130644733,-0.13674009177303353,
+835,34,37,CorrelationSimilarity,0.9617985801383594,-0.22832792226409226,-0.15192508254081108,
+836,34,38,ContingencySimilarity,0.7002429075511643,,,
+837,34,39,ContingencySimilarity,0.6154078334509527,,,
+838,34,40,ContingencySimilarity,0.6972787579393083,,,
+839,34,41,ContingencySimilarity,0.0,,,
+840,35,36,CorrelationSimilarity,0.9458125560098961,-0.23433385883824487,-0.12595897085803717,
+841,35,37,CorrelationSimilarity,0.9535161637923739,-0.23301028231507093,-0.1400426098998187,
+842,35,38,ContingencySimilarity,0.7106088214537756,,,
+843,35,39,ContingencySimilarity,0.6230794636556104,,,
+844,35,40,ContingencySimilarity,0.7067146788990826,,,
+845,35,41,ContingencySimilarity,0.0,,,
+846,36,37,CorrelationSimilarity,0.9971829881661852,0.926160041983296,0.9317940656509256,
+847,36,38,ContingencySimilarity,0.8236278757939308,,,
+848,36,39,ContingencySimilarity,0.6828260409315455,,,
+849,36,40,ContingencySimilarity,0.8094320395201129,,,
+850,36,41,ContingencySimilarity,2.220446049250313e-16,,,
+851,37,38,ContingencySimilarity,0.813054481298518,,,
+852,37,39,ContingencySimilarity,0.6851805222300635,,,
+853,37,40,ContingencySimilarity,0.8125804516584333,,,
+854,37,41,ContingencySimilarity,0.0,,,
+855,38,39,ContingencySimilarity,0.7633817925194072,,,
+856,38,40,ContingencySimilarity,0.8992184191954834,,,
+857,38,41,ContingencySimilarity,0.0,,,
+858,39,40,ContingencySimilarity,0.7384566690190544,,,
+859,39,41,ContingencySimilarity,0.0,,,
+860,40,41,ContingencySimilarity,0.0,,,
